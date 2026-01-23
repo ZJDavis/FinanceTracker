@@ -1,0 +1,103 @@
+﻿<Window x:Class="FinanceTracker.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:FinanceTracker.Wpf.ViewModels"
+        Title="FinanceTracker" Height="600" Width="1050">
+
+    <Window.DataContext>
+        <vm:TransactionsViewModel/>
+    </Window.DataContext>
+
+    <Grid Margin="12">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Top controls -->
+        <StackPanel Grid.Row="0" Grid.ColumnSpan="2" Orientation="Horizontal" Margin="0,0,0,10">
+            <TextBlock Margin="20,0,0,0" VerticalAlignment="Center"
+                       Text="{Binding Total, StringFormat=Net: {0:C}}"/>
+            <ComboBox Width="180" Margin="0,0,10,0"
+                      ItemsSource="{Binding Accounts}"
+                      SelectedItem="{Binding SelectedAccountFilter}"
+                      DisplayMemberPath="Name"/>
+
+            <DatePicker Width="150" Margin="0,0,10,0"
+                        SelectedDate="{Binding SelectedMonth}"/>
+            <TextBox Width="320"
+                     Margin="0,0,10,0"
+                     VerticalContentAlignment="Center"
+                     Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"
+                     ToolTip="Search payee or memo..." />
+
+            <Button Content="Add" Width="50" Margin="0,0,8,0"
+                    Command="{Binding AddCommand}" />
+
+            <Button Content="Delete" Width="50" Margin="0,0,8,0"
+                    Command="{Binding DeleteCommand}" />
+
+            <Button Content="Save" Width="50" Margin="0,0,8,0"
+                    Command="{Binding SaveCommand}" />
+
+            <Button Content="Cancel" Width="50"
+                    Command="{Binding CancelCommand}" />
+        </StackPanel>
+
+        <!-- Transactions grid -->
+        <DataGrid Grid.Row="1" Grid.Column="0"
+                  ItemsSource="{Binding TransactionsView}"
+                  SelectedItem="{Binding SelectedTransaction}"
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False"
+                  IsReadOnly="True"
+                  Margin="0,0,10,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Date" Binding="{Binding Date}" Width="120"/>
+                <DataGridTextColumn Header="Payee" Binding="{Binding Payee}" Width="*"/>
+                <DataGridTextColumn Header="Memo" Binding="{Binding Memo}" Width="2*"/>
+                <DataGridTextColumn Header="Amount" Binding="{Binding Amount}" Width="140"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Editor -->
+        <Border Grid.Row="1" Grid.Column="1" Padding="12" BorderThickness="1" BorderBrush="LightGray" CornerRadius="6">
+            <StackPanel>
+                <TextBlock Text="Transaction Editor" FontSize="16" FontWeight="SemiBold" Margin="0,0,0,12"/>
+
+                <TextBlock Text="Date"/>
+                <DatePicker SelectedDate="{Binding Editor.Date}" Margin="0,0,0,10"/>
+
+                <TextBlock Text="Account"/>
+                <ComboBox ItemsSource="{Binding Accounts}"
+                          SelectedValuePath="Id"
+                          SelectedValue="{Binding Editor.AccountId}"
+                          DisplayMemberPath="Name"
+                          Margin="0,0,0,10"/>
+
+                <TextBlock Text="Category"/>
+                <ComboBox ItemsSource="{Binding Categories}"
+                          SelectedValuePath="Id"
+                          SelectedValue="{Binding Editor.CategoryId}"
+                          DisplayMemberPath="Name"
+                          Margin="0,0,0,10"/>
+
+                <TextBlock Text="Payee"/>
+                <TextBox Text="{Binding Editor.Payee, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
+
+                <TextBlock Text="Memo"/>
+                <TextBox Text="{Binding Editor.Memo, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
+
+                <TextBlock Text="Amount"/>
+                <TextBox Text="{Binding Editor.AmountText, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
+
+                <TextBlock Text="(Expense = negative, Income = positive)"
+                           Opacity="0.7" FontSize="12"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
