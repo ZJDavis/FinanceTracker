@@ -1,0 +1,13 @@
+FinanceTracker implementation and verification notes
+
+- Repaired nested Core/Data project references and excluded their sources and tests from WPF compilation.
+- Removed redundant generated sibling folders and identical source copies; removed verified identical invalid Copy Git refs that blocked fetch.
+- Fixed transaction draft Save/Cancel, Add resetting data, totals, filtering, selection, and validation.
+- Added SQLite persistence at LocalApplicationData/FinanceTracker/finance.db, exact decimal storage, foreign keys, generated IDs, and transactional schema initialization/migration to version 2.
+- Added typed parameter binding for every transaction write and optimistic version checks for stale saves/UI deletes.
+- Preserved editor decimal precision and report total overflow without crashing.
+- Added xUnit tests discoverable in Visual Studio Test Explorer and an STA regression executable, plus verify.ps1, DEVELOPMENT.md, and SECURITY.md.
+
+Validation: solution build succeeded with zero warnings/errors; 43 xUnit cases and 17 regression checks passed. Tests include injection payloads, locks/retry, read-only/corrupt databases, migration, concurrency, monetary/date boundaries, Unicode/long text, and persistence across separate processes.
+
+Test sensitivity: an isolated raw SQL concatenation mutation caused 5 of 6 injection cases to fail; the temporary unsafe copy was removed. Full visual UI interaction and arbitrary OS permission combinations remain outside automated coverage.
