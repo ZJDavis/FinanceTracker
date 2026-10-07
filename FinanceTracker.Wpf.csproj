@@ -9,12 +9,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="FinanceTracker.Core\**\*;FinanceTracker.Data\**\*;Tests\**\*" />
+    <EmbeddedResource Remove="FinanceTracker.Core\**\*;FinanceTracker.Data\**\*;Tests\**\*" />
+    <None Remove="FinanceTracker.Core\**\*;FinanceTracker.Data\**\*;Tests\**\*" />
+    <Page Remove="FinanceTracker.Core\**\*;FinanceTracker.Data\**\*;Tests\**\*" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FinanceTracker.Core\FinanceTracker.Core.csproj" />
-    <ProjectReference Include="..\FinanceTracker.Data\FinanceTracker.Data.csproj" />
+    <ProjectReference Include="FinanceTracker.Core\FinanceTracker.Core.csproj" />
+    <ProjectReference Include="FinanceTracker.Data\FinanceTracker.Data.csproj" />
   </ItemGroup>
 
 </Project>

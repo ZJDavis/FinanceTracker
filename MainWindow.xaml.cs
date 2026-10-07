@@ -16,8 +16,11 @@ namespace FinanceTracker.Wpf;
 /// </summary>
 public partial class MainWindow : Window
 {
-    public MainWindow()
+    public MainWindow() : this(new ViewModels.TransactionsViewModel()) { }
+
+    public MainWindow(ViewModels.TransactionsViewModel viewModel)
     {
         InitializeComponent();
+        DataContext = viewModel;
     }
 }

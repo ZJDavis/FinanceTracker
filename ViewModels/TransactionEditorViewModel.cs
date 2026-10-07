@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using CommunityToolkit.Mvvm.ComponentModel;
 using FinanceTracker.Core.Models;
 using System.Globalization;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace FinanceTracker.Wpf.ViewModels;
 
@@ -15,7 +14,7 @@ public partial class TransactionEditorViewModel : ObservableObject
     [ObservableProperty] private int id;
     [ObservableProperty] private int accountId;
     [ObservableProperty] private int categoryId;
-    [ObservableProperty] private DateTime date = DateTime.Now;
+    [ObservableProperty] private DateTime? date = DateTime.Today;
     [ObservableProperty] private string payee = "";
     [ObservableProperty] private string memo = "";
     [ObservableProperty] private string amountText = "0.00";
@@ -30,7 +29,7 @@ public partial class TransactionEditorViewModel : ObservableObject
         Date = t.Date.ToDateTime(TimeOnly.MinValue);
         Payee = t.Payee ?? "";
         Memo = t.Memo ?? "";
-        AmountText = t.Amount.ToString("0.00", CultureInfo.InvariantCulture);
+        AmountText = t.Amount.ToString("0.00##########################", CultureInfo.CurrentCulture);
         AccountId = t.AccountId;
         CategoryId = t.CategoryId;
     }
@@ -45,13 +44,19 @@ public partial class TransactionEditorViewModel : ObservableObject
             return false;
         }
 
-        if (!decimal.TryParse(AmountText, NumberStyles.Number, CultureInfo.InvariantCulture, out var amt))
+        if (Date is null)
         {
-            error = "Amount must be a valid number (use e.g. 12.34).";
+            error = "Date is required.";
             return false;
         }
 
-        t.Date = DateOnly.FromDateTime(Date);
+        if (!decimal.TryParse(AmountText, NumberStyles.AllowLeadingSign | NumberStyles.AllowDecimalPoint | NumberStyles.AllowLeadingWhite | NumberStyles.AllowTrailingWhite, CultureInfo.CurrentCulture, out var amt))
+        {
+            error = "Amount must be a valid number using your regional decimal separator.";
+            return false;
+        }
+
+        t.Date = DateOnly.FromDateTime(Date.Value);
         t.Payee = Payee.Trim();
         t.Memo = Memo?.Trim() ?? "";
         t.Amount = amt;

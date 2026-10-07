@@ -1,9 +1,9 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
+using FinanceTracker.Core.Services;
+using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using FinanceTracker.Core.Models;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.Windows;
 using System.Windows.Data;
 using System.Linq;
 
@@ -28,35 +28,56 @@ public partial class TransactionsViewModel : ObservableObject
     [ObservableProperty]
     private string searchText = "";
 
-    public decimal Total => TransactionsView.Cast<Transaction>().Sum(t => t.Amount);
+    public decimal? Total
+    {
+        get
+        {
+            try { return TransactionsView.Cast<Transaction>().Sum(t => t.Amount); }
+            catch (OverflowException) { return null; }
+        }
+    }
+    public string TotalWarning => Total is null ? "Filtered total exceeds the supported numeric range." : "";
 
     public TransactionEditorViewModel Editor { get; } = new();
     private Transaction? _editingTarget;
     private Transaction? _newItemDraft;
 
-    public TransactionsViewModel()
+    private readonly IFinanceStore? store;
+    public TransactionsViewModel() : this(null) { }
+    public TransactionsViewModel(IFinanceStore? store)
     {
-        // Seed accounts
-        Accounts.Add(new Account { Id = 1, Name = "Checking", Type = "Checking", OpeningBalance = 1000m });
-        Accounts.Add(new Account { Id = 2, Name = "Credit Card", Type = "Credit", OpeningBalance = 0m });
+        this.store = store;
+        if (store is null)
+        {
+            // Seed accounts
+            Accounts.Add(new Account { Id = 1, Name = "Checking", Type = "Checking", OpeningBalance = 1000m });
+            Accounts.Add(new Account { Id = 2, Name = "Credit Card", Type = "Credit", OpeningBalance = 0m });
 
-        // Seed categories
-        Categories.Add(new Category { Id = 1, Name = "Groceries", Kind = "Expense" });
-        Categories.Add(new Category { Id = 2, Name = "Rent", Kind = "Expense" });
-        Categories.Add(new Category { Id = 3, Name = "Salary", Kind = "Income" });
-        Categories.Add(new Category { Id = 4, Name = "Uncategorized", Kind = "Expense" });
+            // Seed categories
+            Categories.Add(new Category { Id = 1, Name = "Groceries", Kind = "Expense" });
+            Categories.Add(new Category { Id = 2, Name = "Rent", Kind = "Expense" });
+            Categories.Add(new Category { Id = 3, Name = "Salary", Kind = "Income" });
+            Categories.Add(new Category { Id = 4, Name = "Uncategorized", Kind = "Expense" });
 
-        // Seed transactions
-        Transactions.Add(new Transaction { Id = 1, AccountId = 1, CategoryId = 1, Payee = "Grocery Store", Memo = "Weekly groceries", Amount = -54.23m });
-        Transactions.Add(new Transaction { Id = 2, AccountId = 1, CategoryId = 3, Payee = "Paycheck", Memo = "Salary", Amount = 2500m });
-        Transactions.Add(new Transaction { Id = 3, AccountId = 2, CategoryId = 2, Payee = "Landlord", Memo = "Jan rent", Amount = -1200m });
+            // Seed transactions
+            Transactions.Add(new Transaction { Id = 1, AccountId = 1, CategoryId = 1, Payee = "Grocery Store", Memo = "Weekly groceries", Amount = -54.23m });
+            Transactions.Add(new Transaction { Id = 2, AccountId = 1, CategoryId = 3, Payee = "Paycheck", Memo = "Salary", Amount = 2500m });
+            Transactions.Add(new Transaction { Id = 3, AccountId = 2, CategoryId = 2, Payee = "Landlord", Memo = "Jan rent", Amount = -1200m });
 
+        }
+        else
+        {
+            store.Initialize();
+            foreach (var account in store.LoadAccounts()) Accounts.Add(account);
+            foreach (var category in store.LoadCategories()) Categories.Add(category);
+            foreach (var item in store.LoadTransactions()) Transactions.Add(item);
+        }
         TransactionsView = CollectionViewSource.GetDefaultView(Transactions);
         TransactionsView.Filter = FilterTransaction;
 
         SelectedAccountFilter = Accounts.FirstOrDefault();
 
-        SelectedTransaction = Transactions.FirstOrDefault();
+        SelectedTransaction = TransactionsView.Cast<Transaction>().FirstOrDefault();
     }
 
     partial void OnSearchTextChanged(string value) => RefreshView();
@@ -75,9 +96,9 @@ public partial class TransactionsViewModel : ObservableObject
 
         // Month filter (Transaction.Date is DateOnly)
         var monthStart = new DateOnly(SelectedMonth.Year, SelectedMonth.Month, 1);
-        var monthEnd = monthStart.AddMonths(1);
 
-        if (t.Date < monthStart || t.Date >= monthEnd)
+
+        if (t.Date.Year != monthStart.Year || t.Date.Month != monthStart.Month)
             return false;
 
         // Search filter
@@ -90,74 +111,44 @@ public partial class TransactionsViewModel : ObservableObject
 
     partial void OnSelectedTransactionChanged(Transaction? value)
     {
-        if (value is null)
-        {
-            _editingTarget = null;
-            SaveCommand.NotifyCanExecuteChanged();
-            DeleteCommand.NotifyCanExecuteChanged();
-            return;
-        }
-
+        // Selecting another row discards the editor's unsaved changes.
+        _newItemDraft = null;
         _editingTarget = value;
-        _newItemDraft = null; // selecting an existing item cancels "new draft" mode
-        Editor.LoadFrom(value, isNew: false);
-
-        SaveCommand.NotifyCanExecuteChanged();
-        DeleteCommand.NotifyCanExecuteChanged();
-        CancelCommand.NotifyCanExecuteChanged();
+        Editor.LoadFrom(value ?? new Transaction(), isNew: false);
+        ErrorMessage = "";
+        NotifyCommands();
     }
+
+    [ObservableProperty]
+    private string errorMessage = "";
 
     [RelayCommand]
     private void Add()
     {
-        var nextId = Transactions.Count == 0 ? 1 : Transactions.Max(x => x.Id) + 1;
-
-        var t = new Transaction
+        SelectedTransaction = null;
+        var draft = new Transaction
         {
-            Id = nextId,
-            AccountId = SelectedAccountFilter?.Id ?? Accounts.First().Id,
-            CategoryId = Categories.First(c => c.Name == "Uncategorized").Id,
-            Date = DateOnly.FromDateTime(DateTime.Today),
-            Payee = "",
-            Memo = "",
-            Amount = 0m
+            Id = 0,
+            AccountId = SelectedAccountFilter?.Id ?? Accounts.FirstOrDefault()?.Id ?? 0,
+            CategoryId = Categories.FirstOrDefault(c => c.Name == "Uncategorized")?.Id ?? 0,
+            Date = DateOnly.FromDateTime(SelectedMonth)
         };
-
-        Transactions.Add(t);
-        _newItemDraft = t;
-
-        SelectedTransaction = t;           // loads editor
-        Editor.LoadFrom(t, isNew: true);   // explicitly new
-
-        CancelCommand.NotifyCanExecuteChanged();
-        SaveCommand.NotifyCanExecuteChanged();
-        DeleteCommand.NotifyCanExecuteChanged();
-
-        Accounts.Add(new Account { Id = 1, Name = "Checking", Type = "Checking", OpeningBalance = 1000m });
-        Accounts.Add(new Account { Id = 2, Name = "Credit Card", Type = "Credit", OpeningBalance = 0m });
-
-        Categories.Add(new Category { Id = 1, Name = "Groceries", Kind = "Expense" });
-        Categories.Add(new Category { Id = 2, Name = "Rent", Kind = "Expense" });
-        Categories.Add(new Category { Id = 3, Name = "Salary", Kind = "Income" });
-        Categories.Add(new Category { Id = 4, Name = "Uncategorized", Kind = "Expense" });
-        Transactions.Clear();
-        Transactions.Add(new Transaction { Id = 1, AccountId = 1, CategoryId = 1, Payee = "Grocery Store", Memo = "Weekly groceries", Amount = -54.23m });
-        Transactions.Add(new Transaction { Id = 2, AccountId = 1, CategoryId = 3, Payee = "Paycheck", Memo = "Salary", Amount = 2500m });
-        Transactions.Add(new Transaction { Id = 3, AccountId = 2, CategoryId = 2, Payee = "Landlord", Memo = "Jan rent", Amount = -1200m });
-        SelectedAccountFilter = Accounts.FirstOrDefault();
-
-
+        _newItemDraft = draft;
+        _editingTarget = draft;
+        Editor.LoadFrom(draft, isNew: true);
+        ErrorMessage = "";
+        NotifyCommands();
     }
 
     [RelayCommand(CanExecute = nameof(CanDelete))]
     private void Delete()
     {
         if (SelectedTransaction is null) return;
-
-        var toRemove = SelectedTransaction;
-        Transactions.Remove(toRemove);
-
-        SelectedTransaction = Transactions.FirstOrDefault();
+        try { store?.DeleteTransaction(SelectedTransaction.Id, SelectedTransaction.Version); }
+        catch (Exception ex) { ErrorMessage = "Delete failed: " + ex.Message; return; }
+        Transactions.Remove(SelectedTransaction);
+        SelectedTransaction = null;
+        RefreshView();
     }
 
     private bool CanDelete() => SelectedTransaction is not null;
@@ -166,21 +157,44 @@ public partial class TransactionsViewModel : ObservableObject
     private void Save()
     {
         if (_editingTarget is null) return;
-
-        if (!Editor.TryApplyTo(_editingTarget, out var error))
+        if (!Accounts.Any(a => a.Id == Editor.AccountId))
         {
-            MessageBox.Show(error, "Cannot Save", MessageBoxButton.OK, MessageBoxImage.Warning);
+            ErrorMessage = "Select a valid account.";
+            return;
+        }
+        if (!Categories.Any(c => c.Id == Editor.CategoryId))
+        {
+            ErrorMessage = "Select a valid category.";
+            return;
+        }
+        var saved = new Transaction { Id = _editingTarget.Id, Version = _editingTarget.Version };
+        if (!Editor.TryApplyTo(saved, out var error))
+        {
+            ErrorMessage = error ?? "Cannot save transaction.";
             return;
         }
 
-        // If it was a new item and it saved successfully, it’s no longer a draft
+        try
+        {
+            saved.Id = store?.SaveTransaction(saved) ?? (saved.Id == 0 ? (Transactions.Count == 0 ? 1 : Transactions.Max(t => t.Id) + 1) : saved.Id);
+        }
+        catch (Exception ex) { ErrorMessage = "Save failed: " + ex.Message; return; }
+        if (_newItemDraft is not null) Transactions.Add(saved);
+        else Transactions[Transactions.IndexOf(_editingTarget)] = saved;
+        _editingTarget = saved;
         _newItemDraft = null;
-        Editor.LoadFrom(_editingTarget, isNew: false);
-
+        ErrorMessage = "";
+        Editor.LoadFrom(saved, isNew: false);
         RefreshView();
-
-        CancelCommand.NotifyCanExecuteChanged();
-        SaveCommand.NotifyCanExecuteChanged();
+        // A saved transaction can disappear from the current filters.
+        SelectedTransaction = TransactionsView.Cast<Transaction>().Contains(saved)
+            ? saved : TransactionsView.Cast<Transaction>().FirstOrDefault();
+        if (SelectedTransaction is null)
+        {
+            _editingTarget = null;
+            Editor.LoadFrom(new Transaction(), isNew: false);
+        }
+        NotifyCommands();
     }
 
     private bool CanSave() => _editingTarget is not null;
@@ -189,25 +203,39 @@ public partial class TransactionsViewModel : ObservableObject
     private void Cancel()
     {
         if (_editingTarget is null) return;
-
-        // If canceling a new draft, remove it
-        if (_newItemDraft == _editingTarget)
+        ErrorMessage = "";
+        if (_newItemDraft is not null)
         {
-            Transactions.Remove(_editingTarget);
             _newItemDraft = null;
-            SelectedTransaction = Transactions.FirstOrDefault();
-            return;
+            _editingTarget = null;
+            Editor.LoadFrom(new Transaction(), isNew: false);
+            SelectedTransaction = TransactionsView.Cast<Transaction>().FirstOrDefault();
         }
-
-        // Otherwise revert editor to the selected item’s current values
-        Editor.LoadFrom(_editingTarget, isNew: false);
+        else
+        {
+            Editor.LoadFrom(_editingTarget, isNew: false);
+        }
+        NotifyCommands();
     }
 
     private bool CanCancel() => _editingTarget is not null;
+
+    private void NotifyCommands()
+    {
+        SaveCommand.NotifyCanExecuteChanged();
+        DeleteCommand.NotifyCanExecuteChanged();
+        CancelCommand.NotifyCanExecuteChanged();
+    }
 
     private void RefreshView()
     {
         TransactionsView.Refresh();
         OnPropertyChanged(nameof(Total));
+        OnPropertyChanged(nameof(TotalWarning));
+        if (_newItemDraft is null &&
+            (SelectedTransaction is null || !TransactionsView.Cast<Transaction>().Contains(SelectedTransaction)))
+        {
+            SelectedTransaction = TransactionsView.Cast<Transaction>().FirstOrDefault();
+        }
     }
 }

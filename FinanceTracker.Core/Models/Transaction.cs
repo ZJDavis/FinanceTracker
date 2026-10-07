@@ -9,6 +9,7 @@ namespace FinanceTracker.Core.Models;
 public sealed class Transaction
 {
     public int Id { get; set; }
+    public int Version { get; set; }
     public DateOnly Date { get; set; } = DateOnly.FromDateTime(DateTime.Today);
 
     public int AccountId { get; set; }
