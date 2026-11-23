@@ -14,5 +14,7 @@ if (Test-Path -LiteralPath $localDotnetPath) {
 if ($LASTEXITCODE -ne 0) { throw 'Solution build failed.' }
 & $dotnetCommand test (Join-Path $PSScriptRoot 'Tests\Unit\FinanceTracker.UnitTests.csproj') --no-build --nologo
 if ($LASTEXITCODE -ne 0) { throw 'Unit tests failed.' }
+& $dotnetCommand test (Join-Path $PSScriptRoot 'Tests\Api.Integration\FinanceTracker.Api.IntegrationTests.csproj') --no-build --nologo
+if ($LASTEXITCODE -ne 0) { throw 'PostgreSQL/API integration tests failed. Confirm Docker is running.' }
 & $dotnetCommand run --project (Join-Path $PSScriptRoot 'Tests\FinanceTracker.Regression.csproj')
 if ($LASTEXITCODE -ne 0) { throw 'Regression checks failed.' }

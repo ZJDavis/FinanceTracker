@@ -1,0 +1,52 @@
+@baseUrl = http://127.0.0.1:5080
+
+### Health checks
+GET {{baseUrl}}/health/live
+
+### Ready check
+GET {{baseUrl}}/health/ready
+
+### Reference data
+GET {{baseUrl}}/api/v1/accounts
+
+### Categories
+GET {{baseUrl}}/api/v1/categories
+
+### Filtered transaction page
+GET {{baseUrl}}/api/v1/transactions?accountId=1&from=2026-01-01&to=2026-03-31&search=demo&page=1&pageSize=10&sort=date&direction=desc
+
+### Activity report across the complete date range
+GET {{baseUrl}}/api/v1/reports/activity?from=2026-01-01&to=2026-03-31&accountId=1
+
+### Create a synthetic expense; save the returned id for the following requests
+POST {{baseUrl}}/api/v1/transactions
+Content-Type: application/json
+
+{
+  "date": "2026-04-10",
+  "accountId": 1,
+  "categoryId": 1,
+  "payee": "[DEMO] Request file purchase",
+  "memo": "Synthetic portfolio sample",
+  "amount": -14.25
+}
+
+### Read a transaction and copy its ETag header before editing
+GET {{baseUrl}}/api/v1/transactions/11
+
+### Update example; replace id and If-Match with the current response values
+PUT {{baseUrl}}/api/v1/transactions/11
+If-Match: "1"
+Content-Type: application/json
+
+{
+  "date": "2026-04-10",
+  "accountId": 1,
+  "categoryId": 1,
+  "payee": "[DEMO] Updated request file purchase",
+  "memo": "Synthetic portfolio sample",
+  "amount": -14.25
+}
+
+### Review consumed Kafka event metadata without retrieving transaction payloads
+GET {{baseUrl}}/api/v1/events/receipts?limit=20

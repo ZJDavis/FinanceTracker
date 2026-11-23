@@ -1,0 +1,55 @@
+name: FinanceTracker CI
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  windows-desktop:
+    name: Build WPF and run desktop checks
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+      - name: Restore solution
+        run: dotnet restore FinanceTracker.sln
+      - name: Check formatting for backend and client code
+        run: >-
+          dotnet format FinanceTracker.sln --verify-no-changes --no-restore --include
+          FinanceTracker.Application FinanceTracker.Data.Postgres FinanceTracker.Api
+          FinanceTracker.Data/HttpFinanceClient.cs FinanceTracker.Data/SqliteFinanceClient.cs
+          ViewModels/TransactionsViewModel.cs ViewModels/TransactionsViewModel.AsyncClient.cs
+          App.xaml.cs Tests/Api.Integration Tests/Unit/FinanceRulesTests.cs
+      - name: Build the full solution
+        run: dotnet build FinanceTracker.sln --configuration Release --no-restore
+      - name: Run unit tests
+        run: dotnet test Tests/Unit/FinanceTracker.UnitTests.csproj --configuration Release --no-build --no-restore
+      - name: Run WPF regression checks
+        run: dotnet run --project Tests/FinanceTracker.Regression.csproj --configuration Release --no-build --no-restore
+
+  postgres-api:
+    name: Run PostgreSQL API integration tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+      - name: Restore API integration tests
+        run: dotnet restore Tests/Api.Integration/FinanceTracker.Api.IntegrationTests.csproj
+      - name: Run API and PostgreSQL integration tests
+        run: dotnet test Tests/Api.Integration/FinanceTracker.Api.IntegrationTests.csproj --configuration Release --no-restore
+
+  api-container:
+    name: Build API container image
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build without publishing
+        run: docker build --file FinanceTracker.Api/Dockerfile --tag financetracker-api:ci .

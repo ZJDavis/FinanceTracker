@@ -16,6 +16,8 @@
 
         <!-- Top controls -->
         <WrapPanel Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,0,10">
+            <TextBlock Text="{Binding DataModeName}" FontWeight="SemiBold" Margin="0,0,12,0" VerticalAlignment="Center"/>
+            <TextBlock Text="{Binding ConnectionStatus}" Margin="0,0,12,0" VerticalAlignment="Center"/>
             <TextBlock Margin="20,0,0,0" VerticalAlignment="Center"
                        Text="{Binding Total, StringFormat=Filtered net: {0:C}}"/>
             <TextBlock Text="{Binding TotalWarning}" Foreground="DarkRed" TextWrapping="Wrap"/>
@@ -33,16 +35,29 @@
                      ToolTip="Search payee or memo..." />
 
             <Button Content="Add" Width="50" Margin="0,0,8,0"
-                    Command="{Binding AddCommand}" />
+                    Command="{Binding AddClientCommand}" />
 
             <Button Content="Delete" Width="50" Margin="0,0,8,0"
-                    Command="{Binding DeleteCommand}" />
+                    Command="{Binding DeleteClientCommand}" />
 
             <Button Content="Save" Width="50" Margin="0,0,8,0"
-                    Command="{Binding SaveCommand}" />
+                    Command="{Binding SaveClientCommand}" />
 
             <Button Content="Cancel" Width="50"
-                    Command="{Binding CancelCommand}" />
+                    Command="{Binding CancelClientCommand}" />
+
+            <Button Content="Reload" Margin="8,0,0,0" ToolTip="Load the latest server version and discard draft edits"
+                    Command="{Binding ReloadClientCommand}" />
+            <Button Content="Retry" Margin="8,0,0,0" ToolTip="Reconnect to the selected data source"
+                    Command="{Binding RetryClientCommand}" />
+            <Button Content="Import CSV" Margin="8,0,0,0" ToolTip="Preview and import transactions from a CSV file"
+                    Command="{Binding ImportTransactionsCommand}" />
+            <Button Content="‹" Width="32" Margin="12,0,4,0" ToolTip="Previous transaction page"
+                    Command="{Binding PreviousPageClientCommand}" />
+            <TextBlock VerticalAlignment="Center" Text="{Binding CurrentPage, StringFormat=Page {0}}"/>
+            <TextBlock VerticalAlignment="Center" Margin="4,0,0,0" Text="{Binding TotalPages, StringFormat=of {0}}"/>
+            <Button Content="›" Width="32" Margin="4,0,0,0" ToolTip="Next transaction page"
+                    Command="{Binding NextPageClientCommand}" />
         </WrapPanel>
 
         <!-- Transactions grid -->

@@ -1,0 +1,7 @@
+.git
+.dotnet-home
+.finance-tools
+.env
+**/bin
+**/obj
+**/TestResults

@@ -1,0 +1,5258 @@
+[
+  {
+    "Date": "2025-10-01",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Rent",
+    "Payee": "ZD Enterprises office lease",
+    "Memo": "Monthly office rent",
+    "Amount": -7200.0,
+    "SyncId": "0bba6473-d2d9-62b1-8f88-d2fd514e66dd"
+  },
+  {
+    "Date": "2025-10-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Northstar Health - monthly services",
+    "Memo": "Software development retainer",
+    "Amount": 20000.0,
+    "SyncId": "a5191343-679c-e9c2-45b6-e2acf45c21d8"
+  },
+  {
+    "Date": "2025-10-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "b2d6f1c1-c244-e2cf-38c4-c1dd2b46eb0c"
+  },
+  {
+    "Date": "2025-10-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "dbc3ffda-7dc5-694f-393c-f1f57f6ff780"
+  },
+  {
+    "Date": "2025-10-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "fee6fe3a-61be-0ae6-046f-d8834c42a823"
+  },
+  {
+    "Date": "2025-10-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "9af2e1fe-bc41-fd80-6915-98b6d99ed0d6"
+  },
+  {
+    "Date": "2025-10-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "97d9316b-db50-a03e-fc02-e22f8c9bbb3b"
+  },
+  {
+    "Date": "2025-10-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "8f6725e3-5d46-a187-3e44-5c5171e52889"
+  },
+  {
+    "Date": "2025-10-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Software & Licenses",
+    "Payee": "Developer software licenses",
+    "Memo": "IDE, source control, design, and collaboration tools",
+    "Amount": -1650.0,
+    "SyncId": "af939cf4-2d50-482b-4c63-704638b6a3d3"
+  },
+  {
+    "Date": "2025-10-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Cloud Hosting",
+    "Payee": "Cloud hosting and backups",
+    "Memo": "Development, test, and production environments",
+    "Amount": -2800.0,
+    "SyncId": "42acec22-76e6-035d-9039-d3a0dab75d67"
+  },
+  {
+    "Date": "2025-10-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Internet & Phone",
+    "Payee": "Business internet and phone",
+    "Memo": "Office connectivity and business mobile plans",
+    "Amount": -420.0,
+    "SyncId": "7734ff46-80b4-c206-f26b-571256110cf4"
+  },
+  {
+    "Date": "2025-10-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Silverline Logistics - monthly services",
+    "Memo": "Operations consulting and integrations",
+    "Amount": 25000.0,
+    "SyncId": "eba055da-8ce4-c564-b296-9b7f22d3bd9d"
+  },
+  {
+    "Date": "2025-10-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Insurance",
+    "Payee": "Business insurance provider",
+    "Memo": "General liability and professional indemnity coverage",
+    "Amount": -1450.0,
+    "SyncId": "3f9c63d8-e3cc-c6d1-2e1d-cdb039cb66a6"
+  },
+  {
+    "Date": "2025-10-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "2a2e6a0d-e1f2-f7b6-118f-d30b53b25fc3"
+  },
+  {
+    "Date": "2025-10-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "d6268e96-0728-d381-7aac-3f13be976b0e"
+  },
+  {
+    "Date": "2025-10-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "a1b2d7aa-8b22-bb8a-d909-48761299adea"
+  },
+  {
+    "Date": "2025-10-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "715f496e-11a4-93c8-3696-337ddb0e8c21"
+  },
+  {
+    "Date": "2025-10-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "793d4a67-f208-89f1-1b62-63263dcde76b"
+  },
+  {
+    "Date": "2025-10-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "c5982504-1826-6495-fbc1-122cb8aa9c44"
+  },
+  {
+    "Date": "2025-10-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Marketing",
+    "Payee": "ZD Enterprises marketing",
+    "Memo": "Website, lead generation, and client materials",
+    "Amount": -2300.0,
+    "SyncId": "a234c088-9954-60ac-91af-1fc1e59f48bf"
+  },
+  {
+    "Date": "2025-10-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Taxes & Licenses",
+    "Payee": "Estimated business tax payment",
+    "Memo": "Illustrative quarterly estimated tax payment",
+    "Amount": -12000.0,
+    "SyncId": "b919e42c-ef71-3946-e04e-75434139ae7d"
+  },
+  {
+    "Date": "2025-10-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Utilities",
+    "Payee": "Office utilities",
+    "Memo": "Electricity, water, and building services",
+    "Amount": -780.0,
+    "SyncId": "776e834c-fc16-b6dc-9434-d447f4aa7d24"
+  },
+  {
+    "Date": "2025-10-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Copperline Finance - monthly services",
+    "Memo": "Application modernization services",
+    "Amount": 25000.0,
+    "SyncId": "1a5d8cdc-77b6-3990-4ec3-c1c558b0920a"
+  },
+  {
+    "Date": "2025-10-17",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Equipment",
+    "Payee": "Developer laptops",
+    "Memo": "Five staff laptops for the business",
+    "Amount": -7500.0,
+    "SyncId": "7d84dc76-6a09-6199-b881-2f037d1bb152"
+  },
+  {
+    "Date": "2025-10-17",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "24ad78ef-8f78-43d3-ffaf-d8bcfd60c241"
+  },
+  {
+    "Date": "2025-10-17",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "e24dc49f-f5af-3739-c37c-f8059ddb47e6"
+  },
+  {
+    "Date": "2025-10-17",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "9e2fa38f-59a1-e6bb-f3d8-23aa232c03a2"
+  },
+  {
+    "Date": "2025-10-17",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "3afe33c5-fb64-21a1-6499-00074ddde756"
+  },
+  {
+    "Date": "2025-10-17",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "ee088101-95cc-4d0b-2566-41b198ba9be4"
+  },
+  {
+    "Date": "2025-10-17",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "a112c84d-eafc-4306-ab4a-47c06ebc3aca"
+  },
+  {
+    "Date": "2025-10-18",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Accounting & Legal",
+    "Payee": "Bookkeeping and accounting",
+    "Memo": "Monthly bookkeeping and financial reporting",
+    "Amount": -850.0,
+    "SyncId": "b3de0aa8-4460-9f97-1ad0-3c8261ec3dc4"
+  },
+  {
+    "Date": "2025-10-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Supplies",
+    "Payee": "Office supplies",
+    "Memo": "Printing, stationery, and small office purchases",
+    "Amount": -350.0,
+    "SyncId": "60fffd0d-c7dd-8615-b074-9cf9de1e33df"
+  },
+  {
+    "Date": "2025-10-22",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Travel",
+    "Payee": "Client travel and lodging",
+    "Memo": "On-site discovery or project workshop",
+    "Amount": -1250.0,
+    "SyncId": "6e0bfe81-a53c-a13e-d87f-c5766def7042"
+  },
+  {
+    "Date": "2025-10-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Greenfield Retail - monthly services",
+    "Memo": "Product engineering and support",
+    "Amount": 30000.0,
+    "SyncId": "4709bdaf-1c3d-e114-24ae-590c4eda393a"
+  },
+  {
+    "Date": "2025-10-24",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "db5d8878-71b9-fd79-c7c6-494feb749d2c"
+  },
+  {
+    "Date": "2025-10-24",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "87b4187a-4e4c-e31e-b417-c03518391e36"
+  },
+  {
+    "Date": "2025-10-24",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "50ed8df0-195b-e1b5-65e7-f5f0ded4447f"
+  },
+  {
+    "Date": "2025-10-24",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "8009122f-8a79-aec7-e359-69cfcd7afd68"
+  },
+  {
+    "Date": "2025-10-24",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "9dec2ba7-1a6b-36f5-df9f-44638d669f7a"
+  },
+  {
+    "Date": "2025-10-24",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "49a4f5b2-b995-223a-796b-2b3f3ef62aa7"
+  },
+  {
+    "Date": "2025-10-25",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Bank Fees",
+    "Payee": "Payment processing fees",
+    "Memo": "Estimated 2% collection and merchant processing costs",
+    "Amount": -2000.0,
+    "SyncId": "09fbd4b4-5ef2-1f05-5ba7-d4229e6814f1"
+  },
+  {
+    "Date": "2025-10-28",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Training",
+    "Payee": "Technical training and certifications",
+    "Memo": "Staff professional development",
+    "Amount": -900.0,
+    "SyncId": "bda50bbe-e4bf-173b-a8a6-7043896d3cdd"
+  },
+  {
+    "Date": "2025-10-31",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "b1610d8d-57f0-51d0-c04d-77b3cb8f9b04"
+  },
+  {
+    "Date": "2025-10-31",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "c4c16d2c-e692-1d8d-9087-17b606e04ace"
+  },
+  {
+    "Date": "2025-10-31",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "bb282d5c-4242-940d-371a-d6c2e84ac1b8"
+  },
+  {
+    "Date": "2025-10-31",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "7b6817ee-a212-b9f4-e88d-d578b50bf64a"
+  },
+  {
+    "Date": "2025-10-31",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "d70dfe9b-c826-3e58-f451-bb009b00ea88"
+  },
+  {
+    "Date": "2025-10-31",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "a30ebea8-a43b-c74c-f266-28e6ac54672c"
+  },
+  {
+    "Date": "2025-11-01",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Rent",
+    "Payee": "ZD Enterprises office lease",
+    "Memo": "Monthly office rent",
+    "Amount": -7200.0,
+    "SyncId": "c206cb92-4640-cef2-1336-ce9f566602ca"
+  },
+  {
+    "Date": "2025-11-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Northstar Health - monthly services",
+    "Memo": "Software development retainer",
+    "Amount": 20000.0,
+    "SyncId": "181975b3-d515-b6a6-61b2-09723fff8e8a"
+  },
+  {
+    "Date": "2025-11-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Software & Licenses",
+    "Payee": "Developer software licenses",
+    "Memo": "IDE, source control, design, and collaboration tools",
+    "Amount": -1650.0,
+    "SyncId": "d0be6658-54c3-b5c6-62c1-ae04665cea6a"
+  },
+  {
+    "Date": "2025-11-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Cloud Hosting",
+    "Payee": "Cloud hosting and backups",
+    "Memo": "Development, test, and production environments",
+    "Amount": -2800.0,
+    "SyncId": "bc6c3b13-3c8f-277d-1e2a-7626723e6208"
+  },
+  {
+    "Date": "2025-11-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Internet & Phone",
+    "Payee": "Business internet and phone",
+    "Memo": "Office connectivity and business mobile plans",
+    "Amount": -420.0,
+    "SyncId": "541add31-6cb0-463d-5ba3-9e5a2be656e2"
+  },
+  {
+    "Date": "2025-11-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "1f6ec0d8-5520-ce68-d05a-11b1d3b051c6"
+  },
+  {
+    "Date": "2025-11-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "5dccceb9-1eaf-3ddf-52ee-f6eb905eba16"
+  },
+  {
+    "Date": "2025-11-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "778a50b9-46c1-84ae-141a-3488834b9bb5"
+  },
+  {
+    "Date": "2025-11-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "259c92d0-f6dd-aaa5-3f81-4e0b50c99e09"
+  },
+  {
+    "Date": "2025-11-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "68a166c9-803c-954b-d671-651e7876bdf9"
+  },
+  {
+    "Date": "2025-11-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "ad20a0b9-b666-d063-a373-58ea00004059"
+  },
+  {
+    "Date": "2025-11-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Silverline Logistics - monthly services",
+    "Memo": "Operations consulting and integrations",
+    "Amount": 25000.0,
+    "SyncId": "61775adb-b15b-dd76-5c49-d5ca59f9a80a"
+  },
+  {
+    "Date": "2025-11-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Insurance",
+    "Payee": "Business insurance provider",
+    "Memo": "General liability and professional indemnity coverage",
+    "Amount": -1450.0,
+    "SyncId": "d0c74674-f600-3bd6-f1b3-20c1628822ae"
+  },
+  {
+    "Date": "2025-11-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Marketing",
+    "Payee": "ZD Enterprises marketing",
+    "Memo": "Website, lead generation, and client materials",
+    "Amount": -2300.0,
+    "SyncId": "45e5ef32-c781-3dd7-01ba-4c70c4ffe7a9"
+  },
+  {
+    "Date": "2025-11-14",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Accounting & Legal",
+    "Payee": "Business formation legal review",
+    "Memo": "Annual contract and entity review",
+    "Amount": -1800.0,
+    "SyncId": "c2019491-4594-013e-cf00-d050d3ada804"
+  },
+  {
+    "Date": "2025-11-14",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "93da3945-be55-ed5b-0513-91f55cc22da2"
+  },
+  {
+    "Date": "2025-11-14",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "626dfc71-840c-7af3-c655-31e3023c185c"
+  },
+  {
+    "Date": "2025-11-14",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "3e217717-213c-d0d1-4411-57329b73abff"
+  },
+  {
+    "Date": "2025-11-14",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "4b451948-1966-e519-9d38-254e5062898b"
+  },
+  {
+    "Date": "2025-11-14",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "2177697a-5842-a849-17aa-839f11f4a519"
+  },
+  {
+    "Date": "2025-11-14",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "7d09169c-8d6f-1bd4-c551-0e9a37a3d246"
+  },
+  {
+    "Date": "2025-11-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Utilities",
+    "Payee": "Office utilities",
+    "Memo": "Electricity, water, and building services",
+    "Amount": -780.0,
+    "SyncId": "0b9b0e78-57a6-99b4-a4d5-081969915870"
+  },
+  {
+    "Date": "2025-11-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Copperline Finance - monthly services",
+    "Memo": "Application modernization services",
+    "Amount": 25000.0,
+    "SyncId": "5c0b3e2f-00ec-87b0-43fe-c0fe235edcea"
+  },
+  {
+    "Date": "2025-11-18",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Accounting & Legal",
+    "Payee": "Bookkeeping and accounting",
+    "Memo": "Monthly bookkeeping and financial reporting",
+    "Amount": -850.0,
+    "SyncId": "927bfd49-0deb-0901-4c52-da98c4c06214"
+  },
+  {
+    "Date": "2025-11-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Supplies",
+    "Payee": "Office supplies",
+    "Memo": "Printing, stationery, and small office purchases",
+    "Amount": -350.0,
+    "SyncId": "7d8be642-cfbf-e24f-3cbb-96b6dfaf1d6b"
+  },
+  {
+    "Date": "2025-11-21",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "3f6411f7-bae7-93ae-865d-f9478bb3dada"
+  },
+  {
+    "Date": "2025-11-21",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "b77d359a-eb6b-b4dc-c7ea-6666c5d98510"
+  },
+  {
+    "Date": "2025-11-21",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "45510bc6-9c7a-5d62-66cd-572d1d7338b5"
+  },
+  {
+    "Date": "2025-11-21",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "62170328-324f-582f-12f3-da4fec618c85"
+  },
+  {
+    "Date": "2025-11-21",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "2f2283f4-7b09-f6ed-08eb-60ec0d83d8e0"
+  },
+  {
+    "Date": "2025-11-21",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "127378f9-56ee-eb5e-e4c2-4b7b9a11cc86"
+  },
+  {
+    "Date": "2025-11-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Greenfield Retail - monthly services",
+    "Memo": "Product engineering and support",
+    "Amount": 30000.0,
+    "SyncId": "aaae0dc9-74c4-e1ed-7a2d-78769db80ed6"
+  },
+  {
+    "Date": "2025-11-25",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Bank Fees",
+    "Payee": "Payment processing fees",
+    "Memo": "Estimated 2% collection and merchant processing costs",
+    "Amount": -2000.0,
+    "SyncId": "297c5d0c-bece-5dd2-8f97-9dee16f16f76"
+  },
+  {
+    "Date": "2025-11-28",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "129ee186-5dbc-b086-d821-6902d1042206"
+  },
+  {
+    "Date": "2025-11-28",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "ca714c2f-38cf-e696-fd51-a170b631ca19"
+  },
+  {
+    "Date": "2025-11-28",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "1d41fee5-7675-c1e7-0da5-b927eea4ecac"
+  },
+  {
+    "Date": "2025-11-28",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "f13083fb-3eea-f5a4-309f-d6de138c30f3"
+  },
+  {
+    "Date": "2025-11-28",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "a8e606b1-4d0f-a8b4-6933-6899843b35ec"
+  },
+  {
+    "Date": "2025-11-28",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "11e00a25-ce8c-ced2-cccd-f16dab7a512d"
+  },
+  {
+    "Date": "2025-12-01",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Rent",
+    "Payee": "ZD Enterprises office lease",
+    "Memo": "Monthly office rent",
+    "Amount": -7200.0,
+    "SyncId": "5a2aec72-0014-4255-6913-184fe2d09efb"
+  },
+  {
+    "Date": "2025-12-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Northstar Health - monthly services",
+    "Memo": "Software development retainer",
+    "Amount": 20000.0,
+    "SyncId": "ca74e8aa-d94e-e373-0ebe-de8bbeafe287"
+  },
+  {
+    "Date": "2025-12-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Software & Licenses",
+    "Payee": "Developer software licenses",
+    "Memo": "IDE, source control, design, and collaboration tools",
+    "Amount": -1650.0,
+    "SyncId": "e93f5403-54ec-d4fc-f5d6-8be2a7586995"
+  },
+  {
+    "Date": "2025-12-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Cloud Hosting",
+    "Payee": "Cloud hosting and backups",
+    "Memo": "Development, test, and production environments",
+    "Amount": -2800.0,
+    "SyncId": "67a939df-6e6c-0ac0-56c4-15f8956e75d3"
+  },
+  {
+    "Date": "2025-12-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "498b2116-b454-b283-22f5-c3259c5a0569"
+  },
+  {
+    "Date": "2025-12-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "4fa6f2e5-093d-9601-215b-d2152d891924"
+  },
+  {
+    "Date": "2025-12-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "f0b09de8-d19f-9a18-6fbd-7f72ad6e4210"
+  },
+  {
+    "Date": "2025-12-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "b64d7f74-25b9-5933-5152-fafda6e6d8d8"
+  },
+  {
+    "Date": "2025-12-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "60db7228-b448-c92e-2b7d-1e39bcbd7e4d"
+  },
+  {
+    "Date": "2025-12-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "acacaa2f-e797-1cb0-0817-fa4a67007b9e"
+  },
+  {
+    "Date": "2025-12-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Internet & Phone",
+    "Payee": "Business internet and phone",
+    "Memo": "Office connectivity and business mobile plans",
+    "Amount": -420.0,
+    "SyncId": "9095e1d1-868e-aada-8425-b57643295662"
+  },
+  {
+    "Date": "2025-12-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Silverline Logistics - monthly services",
+    "Memo": "Operations consulting and integrations",
+    "Amount": 25000.0,
+    "SyncId": "d3c26187-f1a5-a7c8-5192-91fe985b5984"
+  },
+  {
+    "Date": "2025-12-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Insurance",
+    "Payee": "Business insurance provider",
+    "Memo": "General liability and professional indemnity coverage",
+    "Amount": -1450.0,
+    "SyncId": "27931c5b-cdf5-b798-2ed5-87b85b8725ea"
+  },
+  {
+    "Date": "2025-12-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Marketing",
+    "Payee": "ZD Enterprises marketing",
+    "Memo": "Website, lead generation, and client materials",
+    "Amount": -2300.0,
+    "SyncId": "8ff5f992-8966-1994-1701-42c0bf10f8b3"
+  },
+  {
+    "Date": "2025-12-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "375535af-ae0f-b3c0-3a5f-6cb5e196fcb7"
+  },
+  {
+    "Date": "2025-12-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "6d740af2-ca50-d809-e3a9-a127e5563ef6"
+  },
+  {
+    "Date": "2025-12-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "1ef4317c-370c-a79c-c10a-50e920e21504"
+  },
+  {
+    "Date": "2025-12-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "3cf3c31e-0bf1-bba8-a58a-d6535f05f944"
+  },
+  {
+    "Date": "2025-12-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "2db5634a-1a3e-1c0a-b223-f40c8dab207f"
+  },
+  {
+    "Date": "2025-12-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "8f74028c-a83a-0785-d4cb-419c2aa62f38"
+  },
+  {
+    "Date": "2025-12-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Utilities",
+    "Payee": "Office utilities",
+    "Memo": "Electricity, water, and building services",
+    "Amount": -780.0,
+    "SyncId": "65172df4-481c-ff9a-8735-c8bc1c16bb43"
+  },
+  {
+    "Date": "2025-12-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Copperline Finance - monthly services",
+    "Memo": "Application modernization services",
+    "Amount": 25000.0,
+    "SyncId": "d0574b26-95cc-6abe-3e09-87e1d1dbc67e"
+  },
+  {
+    "Date": "2025-12-18",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Accounting & Legal",
+    "Payee": "Bookkeeping and accounting",
+    "Memo": "Monthly bookkeeping and financial reporting",
+    "Amount": -850.0,
+    "SyncId": "78781434-ee5d-a192-c649-99e74cb2d7a5"
+  },
+  {
+    "Date": "2025-12-19",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "3e3c9d66-d8f1-eac7-514e-31fa7ec9ced7"
+  },
+  {
+    "Date": "2025-12-19",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "75e717f7-e617-b35b-9285-dd454fd8d1f4"
+  },
+  {
+    "Date": "2025-12-19",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "ade63712-43b5-c3f9-d1e2-a5459d844a35"
+  },
+  {
+    "Date": "2025-12-19",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "43d84cf3-9a69-0a99-7041-a31dffe13e9b"
+  },
+  {
+    "Date": "2025-12-19",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "02a4230d-8723-6949-7304-d2cc5b07173a"
+  },
+  {
+    "Date": "2025-12-19",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "810c95c2-c006-65c5-14e0-3c55801cb43e"
+  },
+  {
+    "Date": "2025-12-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Supplies",
+    "Payee": "Office supplies",
+    "Memo": "Printing, stationery, and small office purchases",
+    "Amount": -350.0,
+    "SyncId": "3b35fe3a-270e-5ea4-d235-ea851b1e28d0"
+  },
+  {
+    "Date": "2025-12-22",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Travel",
+    "Payee": "Client travel and lodging",
+    "Memo": "On-site discovery or project workshop",
+    "Amount": -1250.0,
+    "SyncId": "1051db7e-c422-624d-69ab-27a45e753222"
+  },
+  {
+    "Date": "2025-12-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Greenfield Retail - monthly services",
+    "Memo": "Product engineering and support",
+    "Amount": 30000.0,
+    "SyncId": "d713752d-aaad-70bb-09b5-bcc3a59493bf"
+  },
+  {
+    "Date": "2025-12-25",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Bank Fees",
+    "Payee": "Payment processing fees",
+    "Memo": "Estimated 2% collection and merchant processing costs",
+    "Amount": -2000.0,
+    "SyncId": "3e5954ea-1d9b-1f29-4943-8b15c706722b"
+  },
+  {
+    "Date": "2025-12-26",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "854b6b55-8f6a-e96d-703d-700ad187980a"
+  },
+  {
+    "Date": "2025-12-26",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "8769334c-c9bc-4deb-6d0f-c7ce61d86c89"
+  },
+  {
+    "Date": "2025-12-26",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "f29f960f-8c4b-efbb-2c29-a9afa457c168"
+  },
+  {
+    "Date": "2025-12-26",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "242dfac7-d3c7-1afc-8171-29327b0691d6"
+  },
+  {
+    "Date": "2025-12-26",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "d5e80a66-4d3b-cf46-8576-457b928223cc"
+  },
+  {
+    "Date": "2025-12-26",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "053b0ac9-cfc3-5bef-eab5-28449837f8ec"
+  },
+  {
+    "Date": "2025-12-27",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Cloud Hosting",
+    "Payee": "Cloud usage overage",
+    "Memo": "Additional compute and storage for client workloads",
+    "Amount": -475.0,
+    "SyncId": "4c0ab279-1197-faa7-2f87-26a56bb0e7d1"
+  },
+  {
+    "Date": "2026-01-01",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Rent",
+    "Payee": "ZD Enterprises office lease",
+    "Memo": "Monthly office rent",
+    "Amount": -7200.0,
+    "SyncId": "6085ae38-17a0-db8e-a35f-5a4e0467d69a"
+  },
+  {
+    "Date": "2026-01-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Northstar Health - monthly services",
+    "Memo": "Software development retainer",
+    "Amount": 20000.0,
+    "SyncId": "928b3196-cd57-df8e-cab6-59f53c34730d"
+  },
+  {
+    "Date": "2026-01-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "8362c69a-5257-6ba1-59bb-c18ee8036ea8"
+  },
+  {
+    "Date": "2026-01-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "eeb32f66-69f2-efa4-b342-0358e8788d1c"
+  },
+  {
+    "Date": "2026-01-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "7c71015b-2f74-eb40-789c-ae705cd5b5a5"
+  },
+  {
+    "Date": "2026-01-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "e2631507-3afe-f884-03b6-18b1ea7d7919"
+  },
+  {
+    "Date": "2026-01-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "c0b6e9cc-8bc0-9671-794d-da9f446dddd8"
+  },
+  {
+    "Date": "2026-01-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "e107c783-b544-2a09-8626-8e9d7607c8fe"
+  },
+  {
+    "Date": "2026-01-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Software & Licenses",
+    "Payee": "Developer software licenses",
+    "Memo": "IDE, source control, design, and collaboration tools",
+    "Amount": -1650.0,
+    "SyncId": "6e47fb3f-667f-1022-204f-09edab1503bf"
+  },
+  {
+    "Date": "2026-01-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Cloud Hosting",
+    "Payee": "Cloud hosting and backups",
+    "Memo": "Development, test, and production environments",
+    "Amount": -2800.0,
+    "SyncId": "5bae250c-533f-78ba-58ce-e724a89c79b8"
+  },
+  {
+    "Date": "2026-01-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Internet & Phone",
+    "Payee": "Business internet and phone",
+    "Memo": "Office connectivity and business mobile plans",
+    "Amount": -420.0,
+    "SyncId": "f486ebb0-dc54-8e36-2aae-eeb1c2c4502b"
+  },
+  {
+    "Date": "2026-01-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Silverline Logistics - monthly services",
+    "Memo": "Operations consulting and integrations",
+    "Amount": 25000.0,
+    "SyncId": "56d473b0-d9c3-d296-80a4-853c26767cd6"
+  },
+  {
+    "Date": "2026-01-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "9842fe0f-f0b4-ebd5-79aa-823772a7d587"
+  },
+  {
+    "Date": "2026-01-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "e7a210fe-64c7-c187-018a-4bfbd316a84b"
+  },
+  {
+    "Date": "2026-01-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "4d8a3a01-1ce6-fabf-d3b1-6278e81239f5"
+  },
+  {
+    "Date": "2026-01-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "57ab5f27-4455-683e-3957-0c83fc971538"
+  },
+  {
+    "Date": "2026-01-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "fd5537ae-76c5-08e6-c1ad-ee50d9b70ac1"
+  },
+  {
+    "Date": "2026-01-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "2ff0f696-75ff-4134-dd5a-9f1903c77353"
+  },
+  {
+    "Date": "2026-01-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Insurance",
+    "Payee": "Business insurance provider",
+    "Memo": "General liability and professional indemnity coverage",
+    "Amount": -1450.0,
+    "SyncId": "43c60ceb-f40b-18b8-57f2-b269bee1ee30"
+  },
+  {
+    "Date": "2026-01-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Marketing",
+    "Payee": "ZD Enterprises marketing",
+    "Memo": "Website, lead generation, and client materials",
+    "Amount": -2300.0,
+    "SyncId": "9fd05564-2d48-24f4-9bb1-615df8f729e0"
+  },
+  {
+    "Date": "2026-01-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Taxes & Licenses",
+    "Payee": "Estimated business tax payment",
+    "Memo": "Illustrative quarterly estimated tax payment",
+    "Amount": -12000.0,
+    "SyncId": "07fca51f-44c4-c386-dec9-deb2243613e0"
+  },
+  {
+    "Date": "2026-01-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Utilities",
+    "Payee": "Office utilities",
+    "Memo": "Electricity, water, and building services",
+    "Amount": -780.0,
+    "SyncId": "e24809f8-8605-efb7-1688-471fdd1b9bda"
+  },
+  {
+    "Date": "2026-01-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Copperline Finance - monthly services",
+    "Memo": "Application modernization services",
+    "Amount": 25000.0,
+    "SyncId": "27761bc8-92ab-6af7-9ad8-f0d653fa808c"
+  },
+  {
+    "Date": "2026-01-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "67dd0635-14df-bb05-592c-a546e9cadfeb"
+  },
+  {
+    "Date": "2026-01-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "cc688f25-8610-4c2d-28ec-903e237bf828"
+  },
+  {
+    "Date": "2026-01-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "bf67c0f1-a65d-7540-6f92-81d78cfc3425"
+  },
+  {
+    "Date": "2026-01-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "23cc94cf-d56d-b36c-89d9-e25467182c0a"
+  },
+  {
+    "Date": "2026-01-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "25b170ac-4e58-12c0-d4d4-9b78ec77472e"
+  },
+  {
+    "Date": "2026-01-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "8c629a34-6f2b-ddc8-21a5-86be03a10a9d"
+  },
+  {
+    "Date": "2026-01-18",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Accounting & Legal",
+    "Payee": "Bookkeeping and accounting",
+    "Memo": "Monthly bookkeeping and financial reporting",
+    "Amount": -850.0,
+    "SyncId": "842e9c02-c165-0296-a8f2-f91870e3acd2"
+  },
+  {
+    "Date": "2026-01-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Supplies",
+    "Payee": "Office supplies",
+    "Memo": "Printing, stationery, and small office purchases",
+    "Amount": -350.0,
+    "SyncId": "832a86d9-4fc6-d5c4-9f38-3ddaeab838b2"
+  },
+  {
+    "Date": "2026-01-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Greenfield Retail - monthly services",
+    "Memo": "Product engineering and support",
+    "Amount": 30000.0,
+    "SyncId": "c05f8048-fdc8-7655-10ce-6bda499b85be"
+  },
+  {
+    "Date": "2026-01-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "c50e6042-2809-139f-02e3-3ee958a13c7d"
+  },
+  {
+    "Date": "2026-01-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "4147e123-9c8d-ef7f-0cfb-75ead4b1ddb5"
+  },
+  {
+    "Date": "2026-01-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "555501f7-7513-a34e-1dd5-09be2d968e31"
+  },
+  {
+    "Date": "2026-01-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "ddfd596a-507e-cc39-6178-b94b34a8725c"
+  },
+  {
+    "Date": "2026-01-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "70bfe01b-02b8-b76a-2863-ac6d84369fb5"
+  },
+  {
+    "Date": "2026-01-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "e208ced6-11fe-8b4a-3ae7-0a10ee6fffe0"
+  },
+  {
+    "Date": "2026-01-25",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Bank Fees",
+    "Payee": "Payment processing fees",
+    "Memo": "Estimated 2% collection and merchant processing costs",
+    "Amount": -2000.0,
+    "SyncId": "0a9f4e36-dabf-f912-5238-2bbbb8317e06"
+  },
+  {
+    "Date": "2026-01-28",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Training",
+    "Payee": "Technical training and certifications",
+    "Memo": "Staff professional development",
+    "Amount": -900.0,
+    "SyncId": "b234f363-09ad-4f9d-7c58-1539f5dda9e9"
+  },
+  {
+    "Date": "2026-01-30",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Equipment",
+    "Payee": "External monitors and docking stations",
+    "Memo": "Workstation equipment for five staff",
+    "Amount": -2250.0,
+    "SyncId": "daacc86e-1864-b897-549f-bd9f6409953b"
+  },
+  {
+    "Date": "2026-01-30",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "4a9dfb77-1a93-2db1-4aa7-f1afbe5fdf1d"
+  },
+  {
+    "Date": "2026-01-30",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "4a098361-ab48-7c49-88b4-68277a5072b0"
+  },
+  {
+    "Date": "2026-01-30",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "da60c2b6-ea32-7b3f-3493-e4e59bba7a93"
+  },
+  {
+    "Date": "2026-01-30",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "1dba79bd-cd1e-04d4-27a5-7c474448d6fe"
+  },
+  {
+    "Date": "2026-01-30",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "82c3a4a8-d948-a3a5-ab6b-7a8d018a5dc3"
+  },
+  {
+    "Date": "2026-01-30",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "2b7fcbe7-55ec-d9d0-84f9-12d5b6b0646d"
+  },
+  {
+    "Date": "2026-02-01",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Rent",
+    "Payee": "ZD Enterprises office lease",
+    "Memo": "Monthly office rent",
+    "Amount": -7200.0,
+    "SyncId": "b47aa69a-1097-a2fd-b732-eb5920b37819"
+  },
+  {
+    "Date": "2026-02-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Northstar Health - monthly services",
+    "Memo": "Software development retainer",
+    "Amount": 20000.0,
+    "SyncId": "b6913ab8-41aa-92b0-3838-c6b04bd31189"
+  },
+  {
+    "Date": "2026-02-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Software & Licenses",
+    "Payee": "Developer software licenses",
+    "Memo": "IDE, source control, design, and collaboration tools",
+    "Amount": -1650.0,
+    "SyncId": "34c666df-5961-3c68-ba26-f66886176bb6"
+  },
+  {
+    "Date": "2026-02-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Cloud Hosting",
+    "Payee": "Cloud hosting and backups",
+    "Memo": "Development, test, and production environments",
+    "Amount": -2800.0,
+    "SyncId": "86696c19-ea95-9bcf-6161-8d264969ba1d"
+  },
+  {
+    "Date": "2026-02-06",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "faec6432-3cb1-5a95-66f3-b39caa426187"
+  },
+  {
+    "Date": "2026-02-06",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "01dc8b21-23bb-e65e-21ed-759736470daa"
+  },
+  {
+    "Date": "2026-02-06",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "d226b38a-798b-e635-980a-4665b93deb1d"
+  },
+  {
+    "Date": "2026-02-06",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "246e9f3a-c8c7-9dbf-e141-6985034feeaa"
+  },
+  {
+    "Date": "2026-02-06",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "f672cdf0-89b6-9ee6-6223-91d949d33c2b"
+  },
+  {
+    "Date": "2026-02-06",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "fcbe0a7b-ca43-34a6-f208-2c8ca86efa90"
+  },
+  {
+    "Date": "2026-02-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Internet & Phone",
+    "Payee": "Business internet and phone",
+    "Memo": "Office connectivity and business mobile plans",
+    "Amount": -420.0,
+    "SyncId": "4055f9c0-ffa5-066a-8206-1ec4ab3d0dff"
+  },
+  {
+    "Date": "2026-02-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Silverline Logistics - monthly services",
+    "Memo": "Operations consulting and integrations",
+    "Amount": 25000.0,
+    "SyncId": "dea319ce-dc90-c8a4-efd8-6b83aa8ff069"
+  },
+  {
+    "Date": "2026-02-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Insurance",
+    "Payee": "Business insurance provider",
+    "Memo": "General liability and professional indemnity coverage",
+    "Amount": -1450.0,
+    "SyncId": "3796fa6b-e33d-052a-c624-784f7520cdad"
+  },
+  {
+    "Date": "2026-02-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Marketing",
+    "Payee": "ZD Enterprises marketing",
+    "Memo": "Website, lead generation, and client materials",
+    "Amount": -2300.0,
+    "SyncId": "7ce56550-f2fb-e4c9-fc98-9765a62e2da9"
+  },
+  {
+    "Date": "2026-02-13",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "2fcc4308-5719-daf7-4fb8-4fdf14895acf"
+  },
+  {
+    "Date": "2026-02-13",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "99a38391-069b-8d11-4e1d-3316be664d10"
+  },
+  {
+    "Date": "2026-02-13",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "7f3e704b-4b28-506f-4301-6fc64dc8afc5"
+  },
+  {
+    "Date": "2026-02-13",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "2788cc35-30e9-43d0-7514-c8ad3cd76481"
+  },
+  {
+    "Date": "2026-02-13",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "52783dd6-d85e-15d0-23bf-d2cabc5b6063"
+  },
+  {
+    "Date": "2026-02-13",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "cd5c9cc1-ca58-99f1-88f9-ad70ee6764e6"
+  },
+  {
+    "Date": "2026-02-13",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Security & Compliance",
+    "Payee": "Application security assessment",
+    "Memo": "Independent review for client delivery readiness",
+    "Amount": -2400.0,
+    "SyncId": "9c853aca-b8be-4943-2d88-d470e992aa5d"
+  },
+  {
+    "Date": "2026-02-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Utilities",
+    "Payee": "Office utilities",
+    "Memo": "Electricity, water, and building services",
+    "Amount": -780.0,
+    "SyncId": "61cf9e90-1229-d3d6-2a65-cb00108179bd"
+  },
+  {
+    "Date": "2026-02-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Copperline Finance - monthly services",
+    "Memo": "Application modernization services",
+    "Amount": 25000.0,
+    "SyncId": "78fdba96-4736-adc5-f4dd-dee0be7b6562"
+  },
+  {
+    "Date": "2026-02-18",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Accounting & Legal",
+    "Payee": "Bookkeeping and accounting",
+    "Memo": "Monthly bookkeeping and financial reporting",
+    "Amount": -850.0,
+    "SyncId": "b04449a5-a63c-0d33-8fb8-ec59fc6d1fbb"
+  },
+  {
+    "Date": "2026-02-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Supplies",
+    "Payee": "Office supplies",
+    "Memo": "Printing, stationery, and small office purchases",
+    "Amount": -350.0,
+    "SyncId": "828f4efb-b90d-75b6-5882-1182e7880dbe"
+  },
+  {
+    "Date": "2026-02-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "d36c0368-284e-7684-18aa-62180f866ad6"
+  },
+  {
+    "Date": "2026-02-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "b4d4ea64-b88c-cd31-a76f-adab54385a28"
+  },
+  {
+    "Date": "2026-02-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "3aa37321-1328-e562-3a35-b204bb7d2fc6"
+  },
+  {
+    "Date": "2026-02-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "dc704382-ed93-9a2b-73c2-2ddf35f7afa7"
+  },
+  {
+    "Date": "2026-02-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "3135ea35-ec6f-ddfe-0c93-2e4999f741d5"
+  },
+  {
+    "Date": "2026-02-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "d5755f9d-e3af-9bb5-b073-3a717e0d9804"
+  },
+  {
+    "Date": "2026-02-22",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Travel",
+    "Payee": "Client travel and lodging",
+    "Memo": "On-site discovery or project workshop",
+    "Amount": -1250.0,
+    "SyncId": "75381a6b-805c-c737-ffc4-1c2f7401e6ac"
+  },
+  {
+    "Date": "2026-02-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Greenfield Retail - monthly services",
+    "Memo": "Product engineering and support",
+    "Amount": 30000.0,
+    "SyncId": "7fb17c03-69ca-dd6c-7a7f-1ecff0b34230"
+  },
+  {
+    "Date": "2026-02-25",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Bank Fees",
+    "Payee": "Payment processing fees",
+    "Memo": "Estimated 2% collection and merchant processing costs",
+    "Amount": -2000.0,
+    "SyncId": "f94e4312-0855-090f-b98d-bb54ec31a142"
+  },
+  {
+    "Date": "2026-02-27",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "b1f0a2d0-88a9-9e82-12b4-207f2138586e"
+  },
+  {
+    "Date": "2026-02-27",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "ba79fc67-bc07-4899-70ba-d00bad7d1361"
+  },
+  {
+    "Date": "2026-02-27",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "4b6ecb07-584a-d8bc-8a1c-f7c6ab4c4e2f"
+  },
+  {
+    "Date": "2026-02-27",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "030491f4-ab24-fcca-fea6-78ed7cb60c65"
+  },
+  {
+    "Date": "2026-02-27",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "e8f536ea-929c-029a-89d0-05477f404a91"
+  },
+  {
+    "Date": "2026-02-27",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "6ffe23cf-f757-8cec-7b5e-0ce73b527a86"
+  },
+  {
+    "Date": "2026-03-01",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Rent",
+    "Payee": "ZD Enterprises office lease",
+    "Memo": "Monthly office rent",
+    "Amount": -7200.0,
+    "SyncId": "31848ffa-fd62-d318-f258-541fe85a1f8c"
+  },
+  {
+    "Date": "2026-03-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Northstar Health - monthly services",
+    "Memo": "Software development retainer",
+    "Amount": 20000.0,
+    "SyncId": "3523089f-6699-89a4-068b-380c723726d5"
+  },
+  {
+    "Date": "2026-03-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Software & Licenses",
+    "Payee": "Developer software licenses",
+    "Memo": "IDE, source control, design, and collaboration tools",
+    "Amount": -1650.0,
+    "SyncId": "1a83eb6c-0c3e-4a42-5d8b-9aa1e2fe552b"
+  },
+  {
+    "Date": "2026-03-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Cloud Hosting",
+    "Payee": "Cloud hosting and backups",
+    "Memo": "Development, test, and production environments",
+    "Amount": -2800.0,
+    "SyncId": "4678bc89-eccd-68e6-eb59-23502668c77b"
+  },
+  {
+    "Date": "2026-03-06",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "9ede534b-349e-0514-f84f-208d85abd9cf"
+  },
+  {
+    "Date": "2026-03-06",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "3ff48e23-fb63-a6b2-134c-7fbc502da3f6"
+  },
+  {
+    "Date": "2026-03-06",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "0e31fd85-3f07-1be1-501c-d3648c61663e"
+  },
+  {
+    "Date": "2026-03-06",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "c3aa89de-04c6-b22b-58d4-86becfdf457a"
+  },
+  {
+    "Date": "2026-03-06",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "1dc28f12-5999-6a9d-b350-1be99d2ee436"
+  },
+  {
+    "Date": "2026-03-06",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "47360030-7ff4-fbcc-929b-11205478c5da"
+  },
+  {
+    "Date": "2026-03-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Internet & Phone",
+    "Payee": "Business internet and phone",
+    "Memo": "Office connectivity and business mobile plans",
+    "Amount": -420.0,
+    "SyncId": "cb6e3956-af5b-7100-6e32-9f7f143d9611"
+  },
+  {
+    "Date": "2026-03-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Silverline Logistics - monthly services",
+    "Memo": "Operations consulting and integrations",
+    "Amount": 25000.0,
+    "SyncId": "0ea27aef-1c47-0c0e-a3e3-fed9342902aa"
+  },
+  {
+    "Date": "2026-03-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Insurance",
+    "Payee": "Business insurance provider",
+    "Memo": "General liability and professional indemnity coverage",
+    "Amount": -1450.0,
+    "SyncId": "bbb7b7d8-2bcf-b2b5-c4c1-e37ff12ad721"
+  },
+  {
+    "Date": "2026-03-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Marketing",
+    "Payee": "ZD Enterprises marketing",
+    "Memo": "Website, lead generation, and client materials",
+    "Amount": -2300.0,
+    "SyncId": "755a5454-34a1-d46a-5119-26f935878abd"
+  },
+  {
+    "Date": "2026-03-13",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "df6bd6e4-c331-8c91-eada-09cc3de2af9d"
+  },
+  {
+    "Date": "2026-03-13",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "50654226-0dab-74c5-ce3e-d04b6c081598"
+  },
+  {
+    "Date": "2026-03-13",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "22861185-9add-2423-f2af-731f44748bb5"
+  },
+  {
+    "Date": "2026-03-13",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "7ffeb622-912a-877d-3de2-910c07d72ea0"
+  },
+  {
+    "Date": "2026-03-13",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "7dddf64a-895d-f5d4-db5e-bbfa3f36b8b1"
+  },
+  {
+    "Date": "2026-03-13",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "1583f3b1-b638-503a-c06f-5eb4063ba0ab"
+  },
+  {
+    "Date": "2026-03-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Utilities",
+    "Payee": "Office utilities",
+    "Memo": "Electricity, water, and building services",
+    "Amount": -780.0,
+    "SyncId": "12807257-0334-7b69-7b59-3e9da01fd66e"
+  },
+  {
+    "Date": "2026-03-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Copperline Finance - monthly services",
+    "Memo": "Application modernization services",
+    "Amount": 25000.0,
+    "SyncId": "37d2be8e-a99b-f548-44b9-21e6e991055b"
+  },
+  {
+    "Date": "2026-03-18",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Accounting & Legal",
+    "Payee": "Bookkeeping and accounting",
+    "Memo": "Monthly bookkeeping and financial reporting",
+    "Amount": -850.0,
+    "SyncId": "1f121056-f60f-c77c-0a38-88b3860b1e7f"
+  },
+  {
+    "Date": "2026-03-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Supplies",
+    "Payee": "Office supplies",
+    "Memo": "Printing, stationery, and small office purchases",
+    "Amount": -350.0,
+    "SyncId": "1801f692-dfda-5c1f-2382-8d7f54df0b7c"
+  },
+  {
+    "Date": "2026-03-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "af2c0b73-5286-5ae8-0f89-4af00b429294"
+  },
+  {
+    "Date": "2026-03-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "2ff27fc3-5707-833c-5228-f8bec4e4c2fe"
+  },
+  {
+    "Date": "2026-03-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "fc557d08-9179-d8f3-811f-11d03d9f2a06"
+  },
+  {
+    "Date": "2026-03-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "3d87c0f8-966f-89ad-14e0-6139d3329ead"
+  },
+  {
+    "Date": "2026-03-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "8025e996-7a5e-1cbd-a00b-a9a6a042ea44"
+  },
+  {
+    "Date": "2026-03-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "0e1c0a94-f1d7-d319-c47d-290b8b0e1829"
+  },
+  {
+    "Date": "2026-03-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Greenfield Retail - monthly services",
+    "Memo": "Product engineering and support",
+    "Amount": 30000.0,
+    "SyncId": "c3843d5d-7e53-5b21-4c98-dab2590f5b81"
+  },
+  {
+    "Date": "2026-03-25",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Bank Fees",
+    "Payee": "Payment processing fees",
+    "Memo": "Estimated 2% collection and merchant processing costs",
+    "Amount": -2000.0,
+    "SyncId": "bd4bcd55-4baa-d857-bf3a-7b6400cd64a2"
+  },
+  {
+    "Date": "2026-03-27",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Cloud Hosting",
+    "Payee": "Cloud usage overage",
+    "Memo": "Additional compute and storage for client workloads",
+    "Amount": -475.0,
+    "SyncId": "c96cf104-d5c4-f49d-b7a7-9aa60aeb292d"
+  },
+  {
+    "Date": "2026-03-27",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "538d0e1e-6a6c-d37f-6cd9-20ac8640a2ba"
+  },
+  {
+    "Date": "2026-03-27",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "8de0b7ff-d7a3-d6a1-df04-007916db5d1d"
+  },
+  {
+    "Date": "2026-03-27",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "430feecb-745f-968b-41ca-cb5b2505b41e"
+  },
+  {
+    "Date": "2026-03-27",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "a0c8a0c5-9ce6-3d58-27ce-0e3d969d2f4b"
+  },
+  {
+    "Date": "2026-03-27",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "e5ccae79-49be-1708-a948-97399cf39b20"
+  },
+  {
+    "Date": "2026-03-27",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "1c723483-0c2a-7b43-c690-0f453e5a9dec"
+  },
+  {
+    "Date": "2026-04-01",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Rent",
+    "Payee": "ZD Enterprises office lease",
+    "Memo": "Monthly office rent",
+    "Amount": -7200.0,
+    "SyncId": "c42614a6-46f8-ac80-23b8-86b378c784ea"
+  },
+  {
+    "Date": "2026-04-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Northstar Health - monthly services",
+    "Memo": "Software development retainer",
+    "Amount": 20000.0,
+    "SyncId": "3a111757-c2ac-7f6e-57f8-d43ab82e8bd5"
+  },
+  {
+    "Date": "2026-04-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "77155ba1-7292-5621-571c-11ba82101d82"
+  },
+  {
+    "Date": "2026-04-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "f21ccc9e-10e6-7ad9-183a-d6d7597c470b"
+  },
+  {
+    "Date": "2026-04-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "a83aaf1f-bf65-a773-a46d-c6d303179be5"
+  },
+  {
+    "Date": "2026-04-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "3b7323d2-840d-a746-97ed-d3944369535a"
+  },
+  {
+    "Date": "2026-04-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "b92fb3d8-b63c-1d00-e8e8-8bfead5eb687"
+  },
+  {
+    "Date": "2026-04-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "9ecd3897-4146-f096-9541-b7757839220a"
+  },
+  {
+    "Date": "2026-04-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Software & Licenses",
+    "Payee": "Developer software licenses",
+    "Memo": "IDE, source control, design, and collaboration tools",
+    "Amount": -1650.0,
+    "SyncId": "30abdde6-9848-2f2a-2347-bf0fc8ff7c8b"
+  },
+  {
+    "Date": "2026-04-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Cloud Hosting",
+    "Payee": "Cloud hosting and backups",
+    "Memo": "Development, test, and production environments",
+    "Amount": -2800.0,
+    "SyncId": "d442ce7d-c74c-357e-174a-6dcde256c143"
+  },
+  {
+    "Date": "2026-04-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Internet & Phone",
+    "Payee": "Business internet and phone",
+    "Memo": "Office connectivity and business mobile plans",
+    "Amount": -420.0,
+    "SyncId": "19446d09-1467-5d37-e8cc-ca8ec5aae15f"
+  },
+  {
+    "Date": "2026-04-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Silverline Logistics - monthly services",
+    "Memo": "Operations consulting and integrations",
+    "Amount": 25000.0,
+    "SyncId": "fe527d95-bc19-3665-dba9-d63589027caf"
+  },
+  {
+    "Date": "2026-04-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Equipment",
+    "Payee": "Network and backup equipment",
+    "Memo": "Office router and encrypted backup storage",
+    "Amount": -1350.0,
+    "SyncId": "f3237bc3-fec8-0b30-d193-4a54a37a197b"
+  },
+  {
+    "Date": "2026-04-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Insurance",
+    "Payee": "Business insurance provider",
+    "Memo": "General liability and professional indemnity coverage",
+    "Amount": -1450.0,
+    "SyncId": "e498f618-0e2a-2494-ceef-d10095b62474"
+  },
+  {
+    "Date": "2026-04-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "a28c6dc3-56bc-7754-ce0c-eb5befb6c028"
+  },
+  {
+    "Date": "2026-04-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "5d75eb48-27f2-7885-45c3-a66d3da06c6c"
+  },
+  {
+    "Date": "2026-04-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "d671ebd9-91cd-0664-59c9-c8f41c80ea34"
+  },
+  {
+    "Date": "2026-04-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "30194d17-171d-6196-c446-b09d353dbe24"
+  },
+  {
+    "Date": "2026-04-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "f3ba058f-90c9-1b2b-f73a-b371c5fe89dc"
+  },
+  {
+    "Date": "2026-04-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "0c45a051-a800-1add-9ece-3df4c1f31a6f"
+  },
+  {
+    "Date": "2026-04-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Marketing",
+    "Payee": "ZD Enterprises marketing",
+    "Memo": "Website, lead generation, and client materials",
+    "Amount": -2300.0,
+    "SyncId": "cc2af290-2e87-98c1-9187-16715ca81ce2"
+  },
+  {
+    "Date": "2026-04-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Taxes & Licenses",
+    "Payee": "Estimated business tax payment",
+    "Memo": "Illustrative quarterly estimated tax payment",
+    "Amount": -12000.0,
+    "SyncId": "5cf52f72-5142-0589-9149-c2a9964353eb"
+  },
+  {
+    "Date": "2026-04-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Utilities",
+    "Payee": "Office utilities",
+    "Memo": "Electricity, water, and building services",
+    "Amount": -780.0,
+    "SyncId": "b51b49ed-3c42-4c64-0853-cf8cec3f0fb2"
+  },
+  {
+    "Date": "2026-04-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Copperline Finance - monthly services",
+    "Memo": "Application modernization services",
+    "Amount": 25000.0,
+    "SyncId": "dc79960b-de74-a2be-68e2-f0d3bba1c90f"
+  },
+  {
+    "Date": "2026-04-17",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "ad88ce8a-350b-8fd7-2c12-2377f5dec417"
+  },
+  {
+    "Date": "2026-04-17",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "c2589976-922d-11ab-c229-a2679dc4c55d"
+  },
+  {
+    "Date": "2026-04-17",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "56e379c3-ac57-c1a7-f986-616d75b4228a"
+  },
+  {
+    "Date": "2026-04-17",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "3eb61a3e-bd0c-b971-2121-d5ab25ff8a24"
+  },
+  {
+    "Date": "2026-04-17",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "e2f3fde4-644e-7eb0-5293-48bdd0a761ba"
+  },
+  {
+    "Date": "2026-04-17",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "8dd708a6-f6a0-4fac-83fe-ffbf2b05a464"
+  },
+  {
+    "Date": "2026-04-18",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Accounting & Legal",
+    "Payee": "Bookkeeping and accounting",
+    "Memo": "Monthly bookkeeping and financial reporting",
+    "Amount": -850.0,
+    "SyncId": "cccc72bf-5c4f-3072-ce7c-a046698a93da"
+  },
+  {
+    "Date": "2026-04-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Supplies",
+    "Payee": "Office supplies",
+    "Memo": "Printing, stationery, and small office purchases",
+    "Amount": -350.0,
+    "SyncId": "a1deae85-cd8c-8792-153f-4d12ca69bede"
+  },
+  {
+    "Date": "2026-04-22",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Travel",
+    "Payee": "Client travel and lodging",
+    "Memo": "On-site discovery or project workshop",
+    "Amount": -1250.0,
+    "SyncId": "dd2301bb-f5a8-4348-ad6b-2e581c11ad22"
+  },
+  {
+    "Date": "2026-04-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Greenfield Retail - monthly services",
+    "Memo": "Product engineering and support",
+    "Amount": 30000.0,
+    "SyncId": "9586ea4b-7885-f448-9d78-65bd9af11cf3"
+  },
+  {
+    "Date": "2026-04-24",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "86d85241-58e8-ec17-161a-c5cddd718b1f"
+  },
+  {
+    "Date": "2026-04-24",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "61990b76-8a29-b731-894a-a1c1773a5268"
+  },
+  {
+    "Date": "2026-04-24",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "0994d613-60d0-88c6-2a45-d7403b1932c1"
+  },
+  {
+    "Date": "2026-04-24",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "490b93ed-fc44-b94e-e9a7-35ff935b2d22"
+  },
+  {
+    "Date": "2026-04-24",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "16a5cfb2-2879-97ec-8da6-fe34aae642fb"
+  },
+  {
+    "Date": "2026-04-24",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "062d0396-a48f-2b02-b9a3-81b65dba1cde"
+  },
+  {
+    "Date": "2026-04-25",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Bank Fees",
+    "Payee": "Payment processing fees",
+    "Memo": "Estimated 2% collection and merchant processing costs",
+    "Amount": -2000.0,
+    "SyncId": "034b4b88-5a40-a0d9-e49e-975f6dc380eb"
+  },
+  {
+    "Date": "2026-04-28",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Training",
+    "Payee": "Technical training and certifications",
+    "Memo": "Staff professional development",
+    "Amount": -900.0,
+    "SyncId": "88ab3526-bd7c-9243-926d-d312853023d2"
+  },
+  {
+    "Date": "2026-05-01",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Rent",
+    "Payee": "ZD Enterprises office lease",
+    "Memo": "Monthly office rent",
+    "Amount": -7200.0,
+    "SyncId": "3991fe3d-08e3-9452-cddc-408587f693e5"
+  },
+  {
+    "Date": "2026-05-01",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "00b42d47-23c7-de47-c77f-0d20fead5c5d"
+  },
+  {
+    "Date": "2026-05-01",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "f061b474-23a4-7ea3-a95a-b0f71358a122"
+  },
+  {
+    "Date": "2026-05-01",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "24c03e0d-2c7e-70be-ddf9-9b4ef98accdd"
+  },
+  {
+    "Date": "2026-05-01",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "e28a636b-c707-ab51-369f-8fc47a3ffdaa"
+  },
+  {
+    "Date": "2026-05-01",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "51277f82-c9e3-8734-871c-a67dde246616"
+  },
+  {
+    "Date": "2026-05-01",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "e39ca34a-6b8f-9032-8c62-08e60c88b95f"
+  },
+  {
+    "Date": "2026-05-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Northstar Health - monthly services",
+    "Memo": "Software development retainer",
+    "Amount": 20000.0,
+    "SyncId": "ecad2c4c-e2c8-7ba7-d7a6-049353e3eb50"
+  },
+  {
+    "Date": "2026-05-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Software & Licenses",
+    "Payee": "Developer software licenses",
+    "Memo": "IDE, source control, design, and collaboration tools",
+    "Amount": -1650.0,
+    "SyncId": "b711cc68-ae1c-3f30-d7a3-5e1a801daaa1"
+  },
+  {
+    "Date": "2026-05-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Cloud Hosting",
+    "Payee": "Cloud hosting and backups",
+    "Memo": "Development, test, and production environments",
+    "Amount": -2800.0,
+    "SyncId": "d4c21583-0be3-efbc-40af-580140f8e2cf"
+  },
+  {
+    "Date": "2026-05-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Internet & Phone",
+    "Payee": "Business internet and phone",
+    "Memo": "Office connectivity and business mobile plans",
+    "Amount": -420.0,
+    "SyncId": "d6b67a3b-f78c-c9bb-d239-75b1c27b3d08"
+  },
+  {
+    "Date": "2026-05-08",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "bf3d975d-ac47-ce32-2a91-5b5bc0a692fd"
+  },
+  {
+    "Date": "2026-05-08",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "5762ad43-11bd-bc9f-3601-3a44e5f88620"
+  },
+  {
+    "Date": "2026-05-08",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "9a9ac1c5-19e0-c3a4-816e-ee9d1e8dcc09"
+  },
+  {
+    "Date": "2026-05-08",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "3884a5d8-75da-5bef-93b4-16c35beb2a74"
+  },
+  {
+    "Date": "2026-05-08",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "1ccbe26e-f182-40be-782f-0097db8334eb"
+  },
+  {
+    "Date": "2026-05-08",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "a0588728-c8d8-7605-c60c-2c2cd892acee"
+  },
+  {
+    "Date": "2026-05-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Silverline Logistics - monthly services",
+    "Memo": "Operations consulting and integrations",
+    "Amount": 25000.0,
+    "SyncId": "5b1e36a1-c1af-1dd5-f934-b7d85b85f47f"
+  },
+  {
+    "Date": "2026-05-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Insurance",
+    "Payee": "Business insurance provider",
+    "Memo": "General liability and professional indemnity coverage",
+    "Amount": -1450.0,
+    "SyncId": "b0336c16-298f-0178-b53a-fc1bfb04277b"
+  },
+  {
+    "Date": "2026-05-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Marketing",
+    "Payee": "ZD Enterprises marketing",
+    "Memo": "Website, lead generation, and client materials",
+    "Amount": -2300.0,
+    "SyncId": "f394813f-3a91-a22d-db34-d84da8071d52"
+  },
+  {
+    "Date": "2026-05-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "bce4038f-0c2e-7ee9-fb16-c3f219687e18"
+  },
+  {
+    "Date": "2026-05-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "51c78b16-5a17-a1e8-daae-286932bbe1d5"
+  },
+  {
+    "Date": "2026-05-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "f2c4de55-9388-1b31-2c77-15f416584bf6"
+  },
+  {
+    "Date": "2026-05-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "7472a88c-bdd3-9228-a59c-30644b242d91"
+  },
+  {
+    "Date": "2026-05-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "f295fd63-aeca-e2ed-d74a-42ae28b8525a"
+  },
+  {
+    "Date": "2026-05-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "3ea1affb-8a46-6673-9602-01818db0e99e"
+  },
+  {
+    "Date": "2026-05-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Utilities",
+    "Payee": "Office utilities",
+    "Memo": "Electricity, water, and building services",
+    "Amount": -780.0,
+    "SyncId": "80043713-6c97-bce1-f25a-c3dcb45ac155"
+  },
+  {
+    "Date": "2026-05-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Copperline Finance - monthly services",
+    "Memo": "Application modernization services",
+    "Amount": 25000.0,
+    "SyncId": "7dcba8f3-dfa9-80f7-d944-1e264d0ec53d"
+  },
+  {
+    "Date": "2026-05-18",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Accounting & Legal",
+    "Payee": "Bookkeeping and accounting",
+    "Memo": "Monthly bookkeeping and financial reporting",
+    "Amount": -850.0,
+    "SyncId": "1e86d304-1475-0eed-9cf7-3616a4e9b216"
+  },
+  {
+    "Date": "2026-05-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Supplies",
+    "Payee": "Office supplies",
+    "Memo": "Printing, stationery, and small office purchases",
+    "Amount": -350.0,
+    "SyncId": "64248a96-89d3-cb68-0c7a-7e0e43ed900b"
+  },
+  {
+    "Date": "2026-05-22",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "ef2a09d5-1815-adf1-ce01-de65711a80c3"
+  },
+  {
+    "Date": "2026-05-22",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "0de3e460-93a3-8ff4-83a4-cdfb3a3e1cce"
+  },
+  {
+    "Date": "2026-05-22",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "8b88c07d-a905-59ab-2834-6b22155b53b0"
+  },
+  {
+    "Date": "2026-05-22",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "c61648fa-3bb8-7c40-35be-a42ad7968a63"
+  },
+  {
+    "Date": "2026-05-22",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "e94401a1-bfb5-c294-f433-33028ca171a1"
+  },
+  {
+    "Date": "2026-05-22",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "3f089153-050a-1ac2-ebbe-83ebd099ea4b"
+  },
+  {
+    "Date": "2026-05-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Greenfield Retail - monthly services",
+    "Memo": "Product engineering and support",
+    "Amount": 30000.0,
+    "SyncId": "9edfd9f7-f7c8-6fbc-2e45-d01e8405b727"
+  },
+  {
+    "Date": "2026-05-25",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Bank Fees",
+    "Payee": "Payment processing fees",
+    "Memo": "Estimated 2% collection and merchant processing costs",
+    "Amount": -2000.0,
+    "SyncId": "9ceeb94e-f762-7e2e-bd35-4b25fc4fca50"
+  },
+  {
+    "Date": "2026-05-29",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "a092f4bc-9935-554c-aa37-235702018b69"
+  },
+  {
+    "Date": "2026-05-29",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "ad4cbe09-e2a9-af98-ce96-d37b450ef81b"
+  },
+  {
+    "Date": "2026-05-29",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "82c0405e-24a5-5f88-f0a2-429509cc214b"
+  },
+  {
+    "Date": "2026-05-29",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "ffb523b0-b239-9e45-bf0e-fb706210e99c"
+  },
+  {
+    "Date": "2026-05-29",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "e36eba57-76ae-75e0-96e4-6eef375d9422"
+  },
+  {
+    "Date": "2026-05-29",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "398dc8fc-ec06-8bb9-89db-dc27366a109d"
+  },
+  {
+    "Date": "2026-06-01",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Rent",
+    "Payee": "ZD Enterprises office lease",
+    "Memo": "Monthly office rent",
+    "Amount": -7200.0,
+    "SyncId": "3f9d2dd9-da51-b8ca-e5d7-0db7dcb9ae9d"
+  },
+  {
+    "Date": "2026-06-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Northstar Health - monthly services",
+    "Memo": "Software development retainer",
+    "Amount": 20000.0,
+    "SyncId": "12ecdf9f-0b63-56c5-3a85-13450bc47770"
+  },
+  {
+    "Date": "2026-06-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Software & Licenses",
+    "Payee": "Developer software licenses",
+    "Memo": "IDE, source control, design, and collaboration tools",
+    "Amount": -1650.0,
+    "SyncId": "dd339d63-e0ad-33d7-d931-4d04d802842d"
+  },
+  {
+    "Date": "2026-06-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Cloud Hosting",
+    "Payee": "Cloud hosting and backups",
+    "Memo": "Development, test, and production environments",
+    "Amount": -2800.0,
+    "SyncId": "f96ee575-af58-c42e-93af-d1fbe40bf4fc"
+  },
+  {
+    "Date": "2026-06-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "46c8167e-73bd-caba-66bd-7386e151e7c7"
+  },
+  {
+    "Date": "2026-06-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "f9e50234-bbe7-0edb-4d04-87117690076a"
+  },
+  {
+    "Date": "2026-06-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "2c0f264d-2f7d-efce-f613-a53665dcd085"
+  },
+  {
+    "Date": "2026-06-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "2715b366-9055-ab14-7d3d-92b1753fb82d"
+  },
+  {
+    "Date": "2026-06-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "19ce5a50-3a82-3311-5a0a-90186ce90e50"
+  },
+  {
+    "Date": "2026-06-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "e36d33f1-e2bd-69b0-28f9-7c92eec51f54"
+  },
+  {
+    "Date": "2026-06-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Internet & Phone",
+    "Payee": "Business internet and phone",
+    "Memo": "Office connectivity and business mobile plans",
+    "Amount": -420.0,
+    "SyncId": "d466ef48-8c84-bc85-0712-4271f7090f8f"
+  },
+  {
+    "Date": "2026-06-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Silverline Logistics - monthly services",
+    "Memo": "Operations consulting and integrations",
+    "Amount": 25000.0,
+    "SyncId": "0e8e13cd-dc8d-f749-ad03-cfdfb2860cc5"
+  },
+  {
+    "Date": "2026-06-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Insurance",
+    "Payee": "Business insurance provider",
+    "Memo": "General liability and professional indemnity coverage",
+    "Amount": -1450.0,
+    "SyncId": "4c043fb4-31ba-4caa-f083-10f9e36f2cfc"
+  },
+  {
+    "Date": "2026-06-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Marketing",
+    "Payee": "ZD Enterprises marketing",
+    "Memo": "Website, lead generation, and client materials",
+    "Amount": -2300.0,
+    "SyncId": "7d69922a-45b4-76d3-ba41-3bd842c9bd65"
+  },
+  {
+    "Date": "2026-06-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "ff384f90-dade-cca9-ebfe-98aaa47bf59e"
+  },
+  {
+    "Date": "2026-06-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "c593f9b0-d9df-9263-2b08-604a4b0d2c2b"
+  },
+  {
+    "Date": "2026-06-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "58345101-2dde-f2c5-5b80-3c3b1aa633db"
+  },
+  {
+    "Date": "2026-06-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "5163ad5d-ac26-80c0-53cb-8a9c1534be39"
+  },
+  {
+    "Date": "2026-06-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "16043a82-765d-ddb2-218c-c80e9ed14d0e"
+  },
+  {
+    "Date": "2026-06-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "fb4c54e0-21cf-b66e-7e40-a78355d46d6e"
+  },
+  {
+    "Date": "2026-06-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Utilities",
+    "Payee": "Office utilities",
+    "Memo": "Electricity, water, and building services",
+    "Amount": -780.0,
+    "SyncId": "c662aa3a-8ce3-f233-726d-acc73263a868"
+  },
+  {
+    "Date": "2026-06-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Copperline Finance - monthly services",
+    "Memo": "Application modernization services",
+    "Amount": 25000.0,
+    "SyncId": "a54c940b-5e81-6faa-fe5e-12441d7b9da9"
+  },
+  {
+    "Date": "2026-06-18",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Accounting & Legal",
+    "Payee": "Bookkeeping and accounting",
+    "Memo": "Monthly bookkeeping and financial reporting",
+    "Amount": -850.0,
+    "SyncId": "2443e505-78b4-8d87-576a-da02f89701c9"
+  },
+  {
+    "Date": "2026-06-18",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Travel",
+    "Payee": "Software engineering conference",
+    "Memo": "Registration and travel for two staff",
+    "Amount": -3600.0,
+    "SyncId": "dd7cbc50-0f94-29fe-df78-a91bc0dcb219"
+  },
+  {
+    "Date": "2026-06-19",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "5fcfeb1d-912f-98c1-6dbd-10f578b98255"
+  },
+  {
+    "Date": "2026-06-19",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "a1972a89-9782-7611-e775-980218e4adc8"
+  },
+  {
+    "Date": "2026-06-19",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "9f840132-2db3-1b40-440c-c398ebb91efe"
+  },
+  {
+    "Date": "2026-06-19",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "dabdb849-1dad-ad55-e796-c34cfe2acfa7"
+  },
+  {
+    "Date": "2026-06-19",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "8958b081-d673-1a3f-834b-1b82826d5caf"
+  },
+  {
+    "Date": "2026-06-19",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "024292ac-b6d8-2543-791d-5d78c35fd321"
+  },
+  {
+    "Date": "2026-06-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Supplies",
+    "Payee": "Office supplies",
+    "Memo": "Printing, stationery, and small office purchases",
+    "Amount": -350.0,
+    "SyncId": "cce025ea-11ee-0946-2fb6-03662f301662"
+  },
+  {
+    "Date": "2026-06-22",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Travel",
+    "Payee": "Client travel and lodging",
+    "Memo": "On-site discovery or project workshop",
+    "Amount": -1250.0,
+    "SyncId": "78d83be6-f1a3-6dbf-a4c5-43f45fd09c8b"
+  },
+  {
+    "Date": "2026-06-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Greenfield Retail - monthly services",
+    "Memo": "Product engineering and support",
+    "Amount": 30000.0,
+    "SyncId": "cbbddd34-742c-f5b6-7e01-be82ee558f0d"
+  },
+  {
+    "Date": "2026-06-25",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Bank Fees",
+    "Payee": "Payment processing fees",
+    "Memo": "Estimated 2% collection and merchant processing costs",
+    "Amount": -2000.0,
+    "SyncId": "2c5d17c7-d371-3e27-3216-c7b628bef484"
+  },
+  {
+    "Date": "2026-06-26",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "afa3cd05-829c-8681-9bfa-f17b5e39fb56"
+  },
+  {
+    "Date": "2026-06-26",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "1655d161-7639-578b-cfa3-34df8de44344"
+  },
+  {
+    "Date": "2026-06-26",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "fb1fbf70-3c80-42b8-8849-8860861442d0"
+  },
+  {
+    "Date": "2026-06-26",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "6ddf1b62-5eab-3bb0-179f-5e6dd03dadfb"
+  },
+  {
+    "Date": "2026-06-26",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "6eac2cf2-bba4-0d6f-f539-a7c0442c29ec"
+  },
+  {
+    "Date": "2026-06-26",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "648e31f1-43dd-e412-ab17-e1e03b31549d"
+  },
+  {
+    "Date": "2026-06-27",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Cloud Hosting",
+    "Payee": "Cloud usage overage",
+    "Memo": "Additional compute and storage for client workloads",
+    "Amount": -475.0,
+    "SyncId": "b4bf48e6-a83c-907a-d015-a07a427fd466"
+  },
+  {
+    "Date": "2026-07-01",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Rent",
+    "Payee": "ZD Enterprises office lease",
+    "Memo": "Monthly office rent",
+    "Amount": -7200.0,
+    "SyncId": "23a8650d-1f16-99f0-ca16-5d59a50aece2"
+  },
+  {
+    "Date": "2026-07-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Northstar Health - monthly services",
+    "Memo": "Software development retainer",
+    "Amount": 20000.0,
+    "SyncId": "51812d2f-500b-daa9-ecc4-49a19829fc8e"
+  },
+  {
+    "Date": "2026-07-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "436eabf6-31ea-164f-816b-94c97a5c7f6c"
+  },
+  {
+    "Date": "2026-07-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "5fc06860-5192-9efb-5b09-158c3a616581"
+  },
+  {
+    "Date": "2026-07-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "baee0a6f-c554-3b6d-c12a-933463911b88"
+  },
+  {
+    "Date": "2026-07-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "7cd2cdf4-c41b-9ee5-378d-0fb2766b0b69"
+  },
+  {
+    "Date": "2026-07-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "b6090373-abdc-e04c-2a37-781b6e7fffd9"
+  },
+  {
+    "Date": "2026-07-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "98148deb-a64d-6bd8-5f84-474016cad3ce"
+  },
+  {
+    "Date": "2026-07-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Software & Licenses",
+    "Payee": "Developer software licenses",
+    "Memo": "IDE, source control, design, and collaboration tools",
+    "Amount": -1650.0,
+    "SyncId": "b80c57a2-e487-681e-81d3-6ea20e1a7fcf"
+  },
+  {
+    "Date": "2026-07-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Cloud Hosting",
+    "Payee": "Cloud hosting and backups",
+    "Memo": "Development, test, and production environments",
+    "Amount": -2800.0,
+    "SyncId": "008f1b92-66b5-52c4-db84-7f79f8a951cf"
+  },
+  {
+    "Date": "2026-07-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Internet & Phone",
+    "Payee": "Business internet and phone",
+    "Memo": "Office connectivity and business mobile plans",
+    "Amount": -420.0,
+    "SyncId": "d8588df2-eeb7-1972-e889-b0972722f645"
+  },
+  {
+    "Date": "2026-07-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Silverline Logistics - monthly services",
+    "Memo": "Operations consulting and integrations",
+    "Amount": 25000.0,
+    "SyncId": "79b067fa-e598-0810-fc77-b1df681a26b3"
+  },
+  {
+    "Date": "2026-07-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Insurance",
+    "Payee": "Business insurance provider",
+    "Memo": "General liability and professional indemnity coverage",
+    "Amount": -1450.0,
+    "SyncId": "e61af3b2-744a-6f51-ed5b-92d51c727c87"
+  },
+  {
+    "Date": "2026-07-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "258be952-6550-994a-27a4-8f79a924b6a5"
+  },
+  {
+    "Date": "2026-07-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "fc04920c-6f8f-b86a-7146-ce5249ada2b3"
+  },
+  {
+    "Date": "2026-07-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "edd5b8eb-6b31-1c69-7e8f-7c779c162ad6"
+  },
+  {
+    "Date": "2026-07-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "8e4433f5-a584-b70b-5da1-f5644651d1f5"
+  },
+  {
+    "Date": "2026-07-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "3699faa0-102e-8194-1cf3-7915612104a6"
+  },
+  {
+    "Date": "2026-07-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "e3df6daf-67ec-8c18-0d1b-57ded5749ffd"
+  },
+  {
+    "Date": "2026-07-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Marketing",
+    "Payee": "ZD Enterprises marketing",
+    "Memo": "Website, lead generation, and client materials",
+    "Amount": -2300.0,
+    "SyncId": "2bbc9476-c719-9b88-1a45-afcf6001bba5"
+  },
+  {
+    "Date": "2026-07-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Taxes & Licenses",
+    "Payee": "Estimated business tax payment",
+    "Memo": "Illustrative quarterly estimated tax payment",
+    "Amount": -12000.0,
+    "SyncId": "5d1ead48-bd62-afd0-407e-a975c2c278fa"
+  },
+  {
+    "Date": "2026-07-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Utilities",
+    "Payee": "Office utilities",
+    "Memo": "Electricity, water, and building services",
+    "Amount": -780.0,
+    "SyncId": "4b8cdd5c-5d7f-cd5e-9c4b-3109b3cdf5c7"
+  },
+  {
+    "Date": "2026-07-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Copperline Finance - monthly services",
+    "Memo": "Application modernization services",
+    "Amount": 25000.0,
+    "SyncId": "3e7ba9fc-edf0-dbdf-59b5-74a6fd800176"
+  },
+  {
+    "Date": "2026-07-17",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "d866cb19-7dcb-a1b8-9245-4b65e161f4d5"
+  },
+  {
+    "Date": "2026-07-17",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "19a16981-e58f-1b31-40ed-dd7d8b60b31c"
+  },
+  {
+    "Date": "2026-07-17",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "5c7bd8e1-09c0-bbba-5544-33c420021e15"
+  },
+  {
+    "Date": "2026-07-17",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "1329e54c-6385-12f7-4f29-9b7243d0ab8b"
+  },
+  {
+    "Date": "2026-07-17",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "e6f228f2-2bcb-3439-7ace-9ff9ac6ccf0a"
+  },
+  {
+    "Date": "2026-07-17",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "47a6a455-401b-7c4d-c6db-94908d1c79ef"
+  },
+  {
+    "Date": "2026-07-18",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Accounting & Legal",
+    "Payee": "Bookkeeping and accounting",
+    "Memo": "Monthly bookkeeping and financial reporting",
+    "Amount": -850.0,
+    "SyncId": "c735e6d9-980e-dd56-8469-8d03ef50c42c"
+  },
+  {
+    "Date": "2026-07-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Supplies",
+    "Payee": "Office supplies",
+    "Memo": "Printing, stationery, and small office purchases",
+    "Amount": -350.0,
+    "SyncId": "95acb1a1-1c5e-acea-ca2f-a3e98864dde2"
+  },
+  {
+    "Date": "2026-07-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Greenfield Retail - monthly services",
+    "Memo": "Product engineering and support",
+    "Amount": 30000.0,
+    "SyncId": "bddf4d8b-eac9-38e1-22b7-b93d8c9150ca"
+  },
+  {
+    "Date": "2026-07-24",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "d57f7f11-9f01-8caf-882d-7f275190726c"
+  },
+  {
+    "Date": "2026-07-24",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "a34a0cc8-8c39-eacf-4a6c-d80f0fcefc5c"
+  },
+  {
+    "Date": "2026-07-24",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "79c1c19f-3499-4be4-118f-3d6f721e1273"
+  },
+  {
+    "Date": "2026-07-24",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "716d9f3b-dc17-2ba1-884e-4a053dcac892"
+  },
+  {
+    "Date": "2026-07-24",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "7a90c839-4c17-ec21-5be7-511aad4bcbca"
+  },
+  {
+    "Date": "2026-07-24",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "3da89ec3-73af-5291-1c55-e9e3ad67267b"
+  },
+  {
+    "Date": "2026-07-25",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Bank Fees",
+    "Payee": "Payment processing fees",
+    "Memo": "Estimated 2% collection and merchant processing costs",
+    "Amount": -2000.0,
+    "SyncId": "a37030eb-ce74-0e21-bd7e-bf1ba6f6bfe8"
+  },
+  {
+    "Date": "2026-07-28",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Training",
+    "Payee": "Technical training and certifications",
+    "Memo": "Staff professional development",
+    "Amount": -900.0,
+    "SyncId": "2291beac-e389-7608-f3b0-518272705b91"
+  },
+  {
+    "Date": "2026-07-31",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "857a80b5-79b2-4cf4-521a-e702947ae886"
+  },
+  {
+    "Date": "2026-07-31",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "9b48763e-ecee-e9e7-5a67-a895b6c20832"
+  },
+  {
+    "Date": "2026-07-31",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "702d6fa8-ab55-7990-e053-1cb1ac66c028"
+  },
+  {
+    "Date": "2026-07-31",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "90183218-3967-52dc-7d7f-2e87d639920f"
+  },
+  {
+    "Date": "2026-07-31",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "aa2a6991-9adc-6ef5-4870-a55fbf2915dc"
+  },
+  {
+    "Date": "2026-07-31",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "68296ec4-d195-cffb-a04a-84044cb03fc0"
+  },
+  {
+    "Date": "2026-08-01",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Rent",
+    "Payee": "ZD Enterprises office lease",
+    "Memo": "Monthly office rent",
+    "Amount": -7200.0,
+    "SyncId": "5ef68a5a-a05c-2b7d-4b5a-8c9a6cde4fdd"
+  },
+  {
+    "Date": "2026-08-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Northstar Health - monthly services",
+    "Memo": "Software development retainer",
+    "Amount": 20000.0,
+    "SyncId": "114d3747-b8c2-9a2e-1e4e-8790b75dca0f"
+  },
+  {
+    "Date": "2026-08-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Software & Licenses",
+    "Payee": "Developer software licenses",
+    "Memo": "IDE, source control, design, and collaboration tools",
+    "Amount": -1650.0,
+    "SyncId": "5b3fd1a2-7ad3-2dec-f769-19a753d9f2d0"
+  },
+  {
+    "Date": "2026-08-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Cloud Hosting",
+    "Payee": "Cloud hosting and backups",
+    "Memo": "Development, test, and production environments",
+    "Amount": -2800.0,
+    "SyncId": "ec597845-fffa-d500-c615-d49cabfb9143"
+  },
+  {
+    "Date": "2026-08-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Internet & Phone",
+    "Payee": "Business internet and phone",
+    "Memo": "Office connectivity and business mobile plans",
+    "Amount": -420.0,
+    "SyncId": "505f926d-b0b8-ca53-eea3-18fa9de66c77"
+  },
+  {
+    "Date": "2026-08-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "1905c30b-15bf-4ea0-c12b-28d85253b6d0"
+  },
+  {
+    "Date": "2026-08-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "29ec6336-a24f-a528-d771-f4f466c45847"
+  },
+  {
+    "Date": "2026-08-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "31ce7e7f-e1a2-7184-8199-8ac7b0da79cd"
+  },
+  {
+    "Date": "2026-08-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "090b75bc-6104-350f-7ce2-99989a1bac88"
+  },
+  {
+    "Date": "2026-08-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "93f3e90c-3866-b83c-5aa7-30134c225d15"
+  },
+  {
+    "Date": "2026-08-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "1875abeb-fa6b-8628-f538-9a06ed37eecc"
+  },
+  {
+    "Date": "2026-08-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Repairs & Maintenance",
+    "Payee": "Office equipment repair",
+    "Memo": "Repair of shared printer and meeting-room display",
+    "Amount": -950.0,
+    "SyncId": "11f7f6a5-07dc-2e76-356d-5d539b97d6f7"
+  },
+  {
+    "Date": "2026-08-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Silverline Logistics - monthly services",
+    "Memo": "Operations consulting and integrations",
+    "Amount": 25000.0,
+    "SyncId": "4be9dbb4-4308-dbbc-0a1b-7bf5177eeae3"
+  },
+  {
+    "Date": "2026-08-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Insurance",
+    "Payee": "Business insurance provider",
+    "Memo": "General liability and professional indemnity coverage",
+    "Amount": -1450.0,
+    "SyncId": "104b10ea-3dd1-8b05-5046-81d7efb5efeb"
+  },
+  {
+    "Date": "2026-08-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Marketing",
+    "Payee": "ZD Enterprises marketing",
+    "Memo": "Website, lead generation, and client materials",
+    "Amount": -2300.0,
+    "SyncId": "53e9774e-4a24-cb6e-0d31-0f93c436bde1"
+  },
+  {
+    "Date": "2026-08-14",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "87145f87-3013-5893-e5d4-c18715cbbb37"
+  },
+  {
+    "Date": "2026-08-14",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "7a004c2b-0794-e0c7-7460-f88c7ffd85f3"
+  },
+  {
+    "Date": "2026-08-14",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "9889f3fe-2e20-6668-f20c-2c883e07f54e"
+  },
+  {
+    "Date": "2026-08-14",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "f83d0e82-003e-5f70-810d-73a6e617ca38"
+  },
+  {
+    "Date": "2026-08-14",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "706cc9ec-c8d2-20d1-d1a9-44240c401b52"
+  },
+  {
+    "Date": "2026-08-14",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "c008c540-2ef0-4358-bd76-7d0307d22376"
+  },
+  {
+    "Date": "2026-08-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Utilities",
+    "Payee": "Office utilities",
+    "Memo": "Electricity, water, and building services",
+    "Amount": -780.0,
+    "SyncId": "4d171f2c-6877-805e-f965-8e948eecd140"
+  },
+  {
+    "Date": "2026-08-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Copperline Finance - monthly services",
+    "Memo": "Application modernization services",
+    "Amount": 25000.0,
+    "SyncId": "3b0757e2-d87f-0a7a-a313-9de136fc2876"
+  },
+  {
+    "Date": "2026-08-18",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Accounting & Legal",
+    "Payee": "Bookkeeping and accounting",
+    "Memo": "Monthly bookkeeping and financial reporting",
+    "Amount": -850.0,
+    "SyncId": "6c0a4386-8ab6-d398-80a9-962101e8d22c"
+  },
+  {
+    "Date": "2026-08-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Supplies",
+    "Payee": "Office supplies",
+    "Memo": "Printing, stationery, and small office purchases",
+    "Amount": -350.0,
+    "SyncId": "3abf14d2-d19c-2c9b-9421-d36b80207758"
+  },
+  {
+    "Date": "2026-08-21",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "a04cdad4-35c5-7cff-09eb-f44fa5af1e09"
+  },
+  {
+    "Date": "2026-08-21",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "be3494e2-88d0-4749-856a-01a16879ce73"
+  },
+  {
+    "Date": "2026-08-21",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "f3c0b139-a38b-2533-8d28-be4205584914"
+  },
+  {
+    "Date": "2026-08-21",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "30563979-235e-27b4-e7a6-f7701a6c75cb"
+  },
+  {
+    "Date": "2026-08-21",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "bd963eb5-1ffe-1ea7-b466-8175524e7f6d"
+  },
+  {
+    "Date": "2026-08-21",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "a714ad81-aecd-0a5d-334e-09a7868c9c69"
+  },
+  {
+    "Date": "2026-08-22",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Travel",
+    "Payee": "Client travel and lodging",
+    "Memo": "On-site discovery or project workshop",
+    "Amount": -1250.0,
+    "SyncId": "433259e0-c285-637e-5726-0b8a3edbe5f7"
+  },
+  {
+    "Date": "2026-08-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Greenfield Retail - monthly services",
+    "Memo": "Product engineering and support",
+    "Amount": 30000.0,
+    "SyncId": "66a5959b-eb23-5e9e-9de2-78c8bde1ab3f"
+  },
+  {
+    "Date": "2026-08-25",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Bank Fees",
+    "Payee": "Payment processing fees",
+    "Memo": "Estimated 2% collection and merchant processing costs",
+    "Amount": -2000.0,
+    "SyncId": "18841021-f4f4-ad22-411d-0ccf84bccceb"
+  },
+  {
+    "Date": "2026-08-28",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "66cf29d9-7192-d72f-e58a-b61f4232520b"
+  },
+  {
+    "Date": "2026-08-28",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "b5f050f2-5f8f-6898-e7c9-83deeb0b7fcd"
+  },
+  {
+    "Date": "2026-08-28",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "d7f7f5a5-7b47-1e9b-ce18-89698e831627"
+  },
+  {
+    "Date": "2026-08-28",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "662d585b-9423-f9cd-629a-0c0d3a6c1687"
+  },
+  {
+    "Date": "2026-08-28",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "2ec335d7-3bad-10f1-5f78-fac63959ece4"
+  },
+  {
+    "Date": "2026-08-28",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "78e70e25-a41e-04dd-c85d-ab213492e35f"
+  },
+  {
+    "Date": "2026-09-01",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Rent",
+    "Payee": "ZD Enterprises office lease",
+    "Memo": "Monthly office rent",
+    "Amount": -7200.0,
+    "SyncId": "cb42dacf-5626-84f3-05b7-0d965075a632"
+  },
+  {
+    "Date": "2026-09-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Northstar Health - monthly services",
+    "Memo": "Software development retainer",
+    "Amount": 20000.0,
+    "SyncId": "4e4b7d95-4d32-75c9-223a-536a11f174a9"
+  },
+  {
+    "Date": "2026-09-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Software & Licenses",
+    "Payee": "Developer software licenses",
+    "Memo": "IDE, source control, design, and collaboration tools",
+    "Amount": -1650.0,
+    "SyncId": "fb8b1116-7e23-6286-1a90-26c187f24224"
+  },
+  {
+    "Date": "2026-09-04",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "75593fb5-3f4c-fb6a-41b4-45888e08e346"
+  },
+  {
+    "Date": "2026-09-04",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "289c108a-e41b-8c4d-93c6-1f4870817a7d"
+  },
+  {
+    "Date": "2026-09-04",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "910a6f15-341d-cdb3-a575-70fdcc68c557"
+  },
+  {
+    "Date": "2026-09-04",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "c424fe83-44d6-2cf8-a2ea-2133a4fa003c"
+  },
+  {
+    "Date": "2026-09-04",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "5a9bb9f6-ae31-2a8d-17b5-80928cb46f4c"
+  },
+  {
+    "Date": "2026-09-04",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "8c209180-b38b-ac24-7c44-f7a633576ec8"
+  },
+  {
+    "Date": "2026-09-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Cloud Hosting",
+    "Payee": "Cloud hosting and backups",
+    "Memo": "Development, test, and production environments",
+    "Amount": -2800.0,
+    "SyncId": "8028dce7-5eba-652d-9bbb-4b5d19bf4c8a"
+  },
+  {
+    "Date": "2026-09-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Internet & Phone",
+    "Payee": "Business internet and phone",
+    "Memo": "Office connectivity and business mobile plans",
+    "Amount": -420.0,
+    "SyncId": "bff25e0f-6363-5ebb-273b-89c098e8b85a"
+  },
+  {
+    "Date": "2026-09-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Silverline Logistics - monthly services",
+    "Memo": "Operations consulting and integrations",
+    "Amount": 25000.0,
+    "SyncId": "ec245a20-a4c2-67b7-327a-f4efbec8f334"
+  },
+  {
+    "Date": "2026-09-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Insurance",
+    "Payee": "Business insurance provider",
+    "Memo": "General liability and professional indemnity coverage",
+    "Amount": -1450.0,
+    "SyncId": "a6330681-7a40-c42a-3820-b14328f26fc0"
+  },
+  {
+    "Date": "2026-09-11",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "7f7890d3-280d-3867-8f0a-9f1b39f3c1a4"
+  },
+  {
+    "Date": "2026-09-11",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "430089a8-e474-eb4f-71f4-17ee0e7f6290"
+  },
+  {
+    "Date": "2026-09-11",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "1e0b4697-9bc9-06ed-bf54-861f18b54bd8"
+  },
+  {
+    "Date": "2026-09-11",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "1474f7a5-31f9-63f7-6bbd-0910cddc2136"
+  },
+  {
+    "Date": "2026-09-11",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "6d1ed79e-0643-ea99-2e00-2d04206cad26"
+  },
+  {
+    "Date": "2026-09-11",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "540bc60b-5729-b2de-cf0e-a7465680bb8b"
+  },
+  {
+    "Date": "2026-09-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Marketing",
+    "Payee": "ZD Enterprises marketing",
+    "Memo": "Website, lead generation, and client materials",
+    "Amount": -2300.0,
+    "SyncId": "75677e0f-db95-f6e5-4d99-891d8c9a7f32"
+  },
+  {
+    "Date": "2026-09-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Utilities",
+    "Payee": "Office utilities",
+    "Memo": "Electricity, water, and building services",
+    "Amount": -780.0,
+    "SyncId": "75123f24-f483-29bc-2470-d849ab98e224"
+  },
+  {
+    "Date": "2026-09-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Copperline Finance - monthly services",
+    "Memo": "Application modernization services",
+    "Amount": 25000.0,
+    "SyncId": "959e2d48-5a99-406f-0c96-099362d8bd6a"
+  },
+  {
+    "Date": "2026-09-18",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Accounting & Legal",
+    "Payee": "Bookkeeping and accounting",
+    "Memo": "Monthly bookkeeping and financial reporting",
+    "Amount": -850.0,
+    "SyncId": "23caa614-2353-5697-973c-76707ae0fe9b"
+  },
+  {
+    "Date": "2026-09-18",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "67e33e28-2e8f-cf66-689f-f4089f31cf54"
+  },
+  {
+    "Date": "2026-09-18",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "6e1f1ef5-1e92-c4b0-f969-45148660d971"
+  },
+  {
+    "Date": "2026-09-18",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "704f2e0d-3270-e846-df3e-6bf6a42ab1f0"
+  },
+  {
+    "Date": "2026-09-18",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "0461f54a-ee2b-0811-928e-2d18c55dabc7"
+  },
+  {
+    "Date": "2026-09-18",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "06cbeefd-79ed-c9b9-992a-1e0b03c9e1ea"
+  },
+  {
+    "Date": "2026-09-18",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "138f8318-dd0d-ca48-26a7-6ced53aaa554"
+  },
+  {
+    "Date": "2026-09-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Supplies",
+    "Payee": "Office supplies",
+    "Memo": "Printing, stationery, and small office purchases",
+    "Amount": -350.0,
+    "SyncId": "6eb0f062-e079-1b1a-dd13-c1bc7c692fcc"
+  },
+  {
+    "Date": "2026-09-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Greenfield Retail - monthly services",
+    "Memo": "Product engineering and support",
+    "Amount": 30000.0,
+    "SyncId": "89e61877-aa7c-0382-bbab-82b74de8d33a"
+  },
+  {
+    "Date": "2026-09-25",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Bank Fees",
+    "Payee": "Payment processing fees",
+    "Memo": "Estimated 2% collection and merchant processing costs",
+    "Amount": -2000.0,
+    "SyncId": "24ac3836-55e6-9fc3-642e-29f99bb77c4b"
+  },
+  {
+    "Date": "2026-09-25",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "8f66aa44-3df1-b3ab-6d9c-6fa26042a5c3"
+  },
+  {
+    "Date": "2026-09-25",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "fe843ca0-521a-8729-71af-4f9a14c594b0"
+  },
+  {
+    "Date": "2026-09-25",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "e0dd8e34-86f0-4a98-5421-22492e50fa6b"
+  },
+  {
+    "Date": "2026-09-25",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "db21e7ba-85d0-80d8-940d-270e24bcd7e6"
+  },
+  {
+    "Date": "2026-09-25",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "5eba7b89-b77d-b242-2c00-4125078ec6da"
+  },
+  {
+    "Date": "2026-09-25",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "6369741e-27f1-975b-e449-fcfc30ddaaad"
+  },
+  {
+    "Date": "2026-09-27",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Cloud Hosting",
+    "Payee": "Cloud usage overage",
+    "Memo": "Additional compute and storage for client workloads",
+    "Amount": -475.0,
+    "SyncId": "d414e2f7-9d9e-9126-fb7c-aa4ea06c6beb"
+  },
+  {
+    "Date": "2026-10-01",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Rent",
+    "Payee": "ZD Enterprises office lease",
+    "Memo": "Monthly office rent",
+    "Amount": -7200.0,
+    "SyncId": "750e48b9-ddba-eb0c-4637-623472777ba9"
+  },
+  {
+    "Date": "2026-10-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Northstar Health - monthly services",
+    "Memo": "Software development retainer",
+    "Amount": 20000.0,
+    "SyncId": "d59fdedd-6bdf-af8a-8a6c-dd9f04b710cf"
+  },
+  {
+    "Date": "2026-10-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "89235211-c6c8-0bb5-d377-68f46d7900cc"
+  },
+  {
+    "Date": "2026-10-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "c26d4592-9011-22f9-1f99-5c549c02068a"
+  },
+  {
+    "Date": "2026-10-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "1f9cd4e3-49b3-33cf-266b-6db51a289513"
+  },
+  {
+    "Date": "2026-10-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "976cd488-a65e-0a23-ac00-2b47727eed06"
+  },
+  {
+    "Date": "2026-10-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "722df9e6-dfe8-9b80-8f9c-e32d64c8efa2"
+  },
+  {
+    "Date": "2026-10-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "8c0660a5-73e9-ec40-a932-98ebbf3abdfe"
+  },
+  {
+    "Date": "2026-10-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Software & Licenses",
+    "Payee": "Developer software licenses",
+    "Memo": "IDE, source control, design, and collaboration tools",
+    "Amount": -1650.0,
+    "SyncId": "6eb230f4-d1fa-3fb8-8449-79c83dd88549"
+  },
+  {
+    "Date": "2026-10-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Cloud Hosting",
+    "Payee": "Cloud hosting and backups",
+    "Memo": "Development, test, and production environments",
+    "Amount": -2800.0,
+    "SyncId": "9e141421-a460-1842-52cb-0427784b606d"
+  },
+  {
+    "Date": "2026-10-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Internet & Phone",
+    "Payee": "Business internet and phone",
+    "Memo": "Office connectivity and business mobile plans",
+    "Amount": -420.0,
+    "SyncId": "8a5651d1-23bd-ad0f-a1e7-4bd11bb790db"
+  },
+  {
+    "Date": "2026-10-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Silverline Logistics - monthly services",
+    "Memo": "Operations consulting and integrations",
+    "Amount": 25000.0,
+    "SyncId": "b90f36aa-74d6-986a-213b-1af23bff353a"
+  },
+  {
+    "Date": "2026-10-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "fe3b4035-5785-bae1-e6bd-948b6ace9022"
+  },
+  {
+    "Date": "2026-10-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "d718a70b-409a-016d-1c73-fc2ef82c3756"
+  },
+  {
+    "Date": "2026-10-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "1c4e64c3-4339-7cc5-3fdf-a8c6b28f7cdd"
+  },
+  {
+    "Date": "2026-10-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "a85a848b-204a-ae09-601c-403b4968c705"
+  },
+  {
+    "Date": "2026-10-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "3adcee6a-acae-b536-5433-37a04279f612"
+  },
+  {
+    "Date": "2026-10-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "1b78c275-f1ae-cfa8-1da2-3f625f053c99"
+  },
+  {
+    "Date": "2026-10-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Insurance",
+    "Payee": "Business insurance provider",
+    "Memo": "General liability and professional indemnity coverage",
+    "Amount": -1450.0,
+    "SyncId": "e30a05d3-b03e-39b7-8a97-9e0e7ae0f265"
+  },
+  {
+    "Date": "2026-10-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Marketing",
+    "Payee": "ZD Enterprises marketing",
+    "Memo": "Website, lead generation, and client materials",
+    "Amount": -2300.0,
+    "SyncId": "211065af-5888-7a09-4d7c-5755a61d7f80"
+  },
+  {
+    "Date": "2026-10-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Taxes & Licenses",
+    "Payee": "Estimated business tax payment",
+    "Memo": "Illustrative quarterly estimated tax payment",
+    "Amount": -12000.0,
+    "SyncId": "86b6c5fe-921a-f2e2-b5a2-ae46afa0132d"
+  },
+  {
+    "Date": "2026-10-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Utilities",
+    "Payee": "Office utilities",
+    "Memo": "Electricity, water, and building services",
+    "Amount": -780.0,
+    "SyncId": "537699ce-bbeb-da24-bf54-d8693951f7f2"
+  },
+  {
+    "Date": "2026-10-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Copperline Finance - monthly services",
+    "Memo": "Application modernization services",
+    "Amount": 25000.0,
+    "SyncId": "4e44b491-47c6-5614-3815-6eba9173d326"
+  },
+  {
+    "Date": "2026-10-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "91f7a63c-4bc7-4e6f-abf2-733a842f377e"
+  },
+  {
+    "Date": "2026-10-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "e4398e9d-40cc-c58a-0364-5097e00e933b"
+  },
+  {
+    "Date": "2026-10-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "7a76eda7-3a82-35ba-77e5-92b3d0210581"
+  },
+  {
+    "Date": "2026-10-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "87ee7c98-525c-2c7b-451c-d81928a07ad3"
+  },
+  {
+    "Date": "2026-10-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "38427d9a-727c-62bb-fe0f-a9d59e5cfb6a"
+  },
+  {
+    "Date": "2026-10-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "70fc6246-99a6-7829-ef09-faaa982b052a"
+  },
+  {
+    "Date": "2026-10-18",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Accounting & Legal",
+    "Payee": "Bookkeeping and accounting",
+    "Memo": "Monthly bookkeeping and financial reporting",
+    "Amount": -850.0,
+    "SyncId": "7567163b-4880-c1d7-07f9-575f5f12e449"
+  },
+  {
+    "Date": "2026-10-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Supplies",
+    "Payee": "Office supplies",
+    "Memo": "Printing, stationery, and small office purchases",
+    "Amount": -350.0,
+    "SyncId": "e4c9bcc3-7faf-adb7-0c3a-b17d2b89072a"
+  },
+  {
+    "Date": "2026-10-22",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Travel",
+    "Payee": "Client travel and lodging",
+    "Memo": "On-site discovery or project workshop",
+    "Amount": -1250.0,
+    "SyncId": "5a8005f3-5540-4dab-86ea-2837d0412234"
+  },
+  {
+    "Date": "2026-10-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Greenfield Retail - monthly services",
+    "Memo": "Product engineering and support",
+    "Amount": 30000.0,
+    "SyncId": "ca4da80f-12c6-06a5-b2db-4eded293f161"
+  },
+  {
+    "Date": "2026-10-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "8573daa7-40c9-5f6a-c3dc-6d9ebcd9f292"
+  },
+  {
+    "Date": "2026-10-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "726af775-d419-f7c9-e16f-105c226c5008"
+  },
+  {
+    "Date": "2026-10-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "c8d7a6e2-7493-6fe2-dccb-14cc88ffcefd"
+  },
+  {
+    "Date": "2026-10-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "6164566d-d7c5-7af8-96cb-0a8172f3ffc5"
+  },
+  {
+    "Date": "2026-10-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "fbef71c6-4461-28a5-f5d1-a97b2d8019bb"
+  },
+  {
+    "Date": "2026-10-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "d36aa1c1-7ab5-3171-ecfe-ee9d37d93907"
+  },
+  {
+    "Date": "2026-10-25",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Bank Fees",
+    "Payee": "Payment processing fees",
+    "Memo": "Estimated 2% collection and merchant processing costs",
+    "Amount": -2000.0,
+    "SyncId": "65aa8c10-6f61-5cb0-b985-91c173ea6ebd"
+  },
+  {
+    "Date": "2026-10-28",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Training",
+    "Payee": "Technical training and certifications",
+    "Memo": "Staff professional development",
+    "Amount": -900.0,
+    "SyncId": "9de24b12-86e4-648d-55eb-b64e864512d1"
+  },
+  {
+    "Date": "2026-10-30",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "d9abf218-2070-907a-6fdb-dd179948e417"
+  },
+  {
+    "Date": "2026-10-30",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "bf02802b-20ff-dcc4-0b9c-2da2b0237178"
+  },
+  {
+    "Date": "2026-10-30",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "23096991-bede-a3ae-a1a0-235c9270057d"
+  },
+  {
+    "Date": "2026-10-30",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "7dc11651-dcbb-5895-c815-4e4613976ce6"
+  },
+  {
+    "Date": "2026-10-30",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "820fd6b6-2c91-e54a-6a6e-ac5cc17fbac1"
+  },
+  {
+    "Date": "2026-10-30",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "83fa658e-cfb4-4c83-262c-b38f0e1f6036"
+  },
+  {
+    "Date": "2026-11-01",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Rent",
+    "Payee": "ZD Enterprises office lease",
+    "Memo": "Monthly office rent",
+    "Amount": -7200.0,
+    "SyncId": "254fc3ce-c986-9f4e-11ea-69cd64212fdf"
+  },
+  {
+    "Date": "2026-11-02",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Northstar Health - monthly services",
+    "Memo": "Software development retainer",
+    "Amount": 20000.0,
+    "SyncId": "55f77a3a-914a-cc74-b4b6-e9c56387132c"
+  },
+  {
+    "Date": "2026-11-03",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Software & Licenses",
+    "Payee": "Developer software licenses",
+    "Memo": "IDE, source control, design, and collaboration tools",
+    "Amount": -1650.0,
+    "SyncId": "13bd584b-53c2-ef46-41c2-dcbf6d753c76"
+  },
+  {
+    "Date": "2026-11-05",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Cloud Hosting",
+    "Payee": "Cloud hosting and backups",
+    "Memo": "Development, test, and production environments",
+    "Amount": -2800.0,
+    "SyncId": "aec436a0-538c-4c7f-bf26-464163230401"
+  },
+  {
+    "Date": "2026-11-06",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "0d5fc01f-61a2-2f95-93e3-2e5733092e41"
+  },
+  {
+    "Date": "2026-11-06",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "6938a719-bbe3-7cff-8612-de576b03e0c6"
+  },
+  {
+    "Date": "2026-11-06",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "52e6a8d4-1b15-84e1-accf-83ff8f33d68e"
+  },
+  {
+    "Date": "2026-11-06",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "0b21e903-c595-d762-1839-e8c95143d3a7"
+  },
+  {
+    "Date": "2026-11-06",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "f63e63ec-d059-e8d7-cb3c-2483d38e2e63"
+  },
+  {
+    "Date": "2026-11-06",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "237b79e8-1822-3731-8fc5-59d73c6f0cff"
+  },
+  {
+    "Date": "2026-11-07",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Internet & Phone",
+    "Payee": "Business internet and phone",
+    "Memo": "Office connectivity and business mobile plans",
+    "Amount": -420.0,
+    "SyncId": "34951206-9bce-4ebb-6834-63a7e2dbb429"
+  },
+  {
+    "Date": "2026-11-09",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Silverline Logistics - monthly services",
+    "Memo": "Operations consulting and integrations",
+    "Amount": 25000.0,
+    "SyncId": "dac95981-2efb-23d0-f63e-42323fb4a5c1"
+  },
+  {
+    "Date": "2026-11-10",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Insurance",
+    "Payee": "Business insurance provider",
+    "Memo": "General liability and professional indemnity coverage",
+    "Amount": -1450.0,
+    "SyncId": "bced7aa3-a100-81d5-1d43-94339ed349ef"
+  },
+  {
+    "Date": "2026-11-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Marketing",
+    "Payee": "ZD Enterprises marketing",
+    "Memo": "Website, lead generation, and client materials",
+    "Amount": -2300.0,
+    "SyncId": "4c0ee92c-1928-2d52-5219-73ac1f784c6a"
+  },
+  {
+    "Date": "2026-11-12",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Taxes & Licenses",
+    "Payee": "Business licenses and registrations",
+    "Memo": "Annual renewals and local filing fees",
+    "Amount": -1200.0,
+    "SyncId": "0730a009-ae8c-cefe-f17b-d7da7e3b064c"
+  },
+  {
+    "Date": "2026-11-13",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "20ffbbb8-7dea-a9aa-8164-af1aa4d0a0f8"
+  },
+  {
+    "Date": "2026-11-13",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "72c0b170-075e-1dc5-66bc-2e28d4c38f2d"
+  },
+  {
+    "Date": "2026-11-13",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "fbb94d44-37f3-8c41-20f7-f2126983a3e5"
+  },
+  {
+    "Date": "2026-11-13",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "f9294156-7dc8-dd6f-d8df-2037a7ec6f09"
+  },
+  {
+    "Date": "2026-11-13",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "73532849-e1f5-e28e-7f77-89cb9fcbe636"
+  },
+  {
+    "Date": "2026-11-13",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "0271cec3-d3b1-7d83-5b39-9acc5dc4aaf5"
+  },
+  {
+    "Date": "2026-11-15",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Utilities",
+    "Payee": "Office utilities",
+    "Memo": "Electricity, water, and building services",
+    "Amount": -780.0,
+    "SyncId": "6ad65338-b1d1-29d6-90c0-63eca5c7fb38"
+  },
+  {
+    "Date": "2026-11-16",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Copperline Finance - monthly services",
+    "Memo": "Application modernization services",
+    "Amount": 25000.0,
+    "SyncId": "ed296a17-4453-152c-b448-1cae31ec7758"
+  },
+  {
+    "Date": "2026-11-18",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Accounting & Legal",
+    "Payee": "Bookkeeping and accounting",
+    "Memo": "Monthly bookkeeping and financial reporting",
+    "Amount": -850.0,
+    "SyncId": "ca4400e6-138f-d8f8-b5a4-85ecd0f476af"
+  },
+  {
+    "Date": "2026-11-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Office Supplies",
+    "Payee": "Office supplies",
+    "Memo": "Printing, stationery, and small office purchases",
+    "Amount": -350.0,
+    "SyncId": "a6199469-91a4-380c-30bd-78894349ed85"
+  },
+  {
+    "Date": "2026-11-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 1",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "8ccf3ae7-3928-2ba9-bf78-c1091fa262d9"
+  },
+  {
+    "Date": "2026-11-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 2",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "e8f0ad13-26e8-9c89-1487-d0f9515053f5"
+  },
+  {
+    "Date": "2026-11-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 3",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "26f2d0fe-e3bb-2230-00a6-6a94ac33fc08"
+  },
+  {
+    "Date": "2026-11-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 4",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "e05e6e7e-8255-ebe6-9776-4fff76d9f6bc"
+  },
+  {
+    "Date": "2026-11-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll",
+    "Payee": "ZD Enterprises payroll - Staff 5",
+    "Memo": "Weekly gross pay; $1,800 per employee",
+    "Amount": -1800.0,
+    "SyncId": "1fd53474-3671-df07-b19a-267af30bd2a7"
+  },
+  {
+    "Date": "2026-11-20",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Payroll Taxes",
+    "Payee": "ZD Enterprises employer payroll taxes",
+    "Memo": "Estimated employer payroll tax; 8.5% of weekly gross payroll",
+    "Amount": -765.0,
+    "SyncId": "9b4213f2-81ab-9835-de64-35ac0a0bb112"
+  },
+  {
+    "Date": "2026-11-23",
+    "AccountName": "ZD Enterprises Operating",
+    "CategoryName": "Consulting Revenue",
+    "Payee": "Greenfield Retail - monthly services",
+    "Memo": "Product engineering and support",
+    "Amount": 30000.0,
+    "SyncId": "c6cc2472-2657-52cc-450a-2220942efa20"
+  }
+]

@@ -9,6 +9,8 @@ namespace FinanceTracker.Core.Models;
 public sealed class Transaction
 {
     public int Id { get; set; }
+    /// <summary>Stable identity shared by the local database and backend.</summary>
+    public Guid SyncId { get; set; } = Guid.NewGuid();
     public int Version { get; set; }
     public DateOnly Date { get; set; } = DateOnly.FromDateTime(DateTime.Today);
 

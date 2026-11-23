@@ -28,7 +28,7 @@ public sealed class SqliteFinanceStore : IFinanceStore
         command.Transaction = transaction;
         command.CommandText = "PRAGMA user_version;";
         var version = Convert.ToInt32(command.ExecuteScalar());
-        if (version > 2) throw new InvalidOperationException("This database requires a newer FinanceTracker version.");
+        if (version > 4) throw new InvalidOperationException("This database requires a newer FinanceTracker version.");
         if (version == 0)
         {
             command.CommandText = """
@@ -45,6 +45,61 @@ public sealed class SqliteFinanceStore : IFinanceStore
         if (version < 2)
         {
             command.CommandText = "ALTER TABLE Transactions ADD COLUMN Version INTEGER NOT NULL DEFAULT 1; PRAGMA user_version=2;";
+            command.ExecuteNonQuery();
+        }
+        if (version < 3)
+        {
+            // Existing rows receive one permanent identity; new rows get theirs in the application.
+            command.CommandText = "ALTER TABLE Transactions ADD COLUMN SyncId TEXT NOT NULL DEFAULT ''; UPDATE Transactions SET SyncId=lower(hex(randomblob(16))) WHERE SyncId=''; CREATE UNIQUE INDEX IX_Transactions_SyncId ON Transactions(SyncId); PRAGMA user_version=3;";
+            command.ExecuteNonQuery();
+        }
+        if (version < 4)
+        {
+            // Keep the synthetic business ledger ready to import in existing local databases.
+            command.CommandText = """
+                INSERT INTO Accounts(Name,Type,OpeningBalance)
+                    SELECT 'ZD Enterprises Operating','Checking','0'
+                    WHERE NOT EXISTS (SELECT 1 FROM Accounts WHERE Name='ZD Enterprises Operating');
+                INSERT INTO Categories(Name,Kind)
+                    SELECT 'Consulting Revenue','Income' WHERE NOT EXISTS (SELECT 1 FROM Categories WHERE Name='Consulting Revenue');
+                INSERT INTO Categories(Name,Kind)
+                    SELECT 'Payroll','Expense' WHERE NOT EXISTS (SELECT 1 FROM Categories WHERE Name='Payroll');
+                INSERT INTO Categories(Name,Kind)
+                    SELECT 'Payroll Taxes','Expense' WHERE NOT EXISTS (SELECT 1 FROM Categories WHERE Name='Payroll Taxes');
+                INSERT INTO Categories(Name,Kind)
+                    SELECT 'Office Rent','Expense' WHERE NOT EXISTS (SELECT 1 FROM Categories WHERE Name='Office Rent');
+                INSERT INTO Categories(Name,Kind)
+                    SELECT 'Software & Licenses','Expense' WHERE NOT EXISTS (SELECT 1 FROM Categories WHERE Name='Software & Licenses');
+                INSERT INTO Categories(Name,Kind)
+                    SELECT 'Cloud Hosting','Expense' WHERE NOT EXISTS (SELECT 1 FROM Categories WHERE Name='Cloud Hosting');
+                INSERT INTO Categories(Name,Kind)
+                    SELECT 'Internet & Phone','Expense' WHERE NOT EXISTS (SELECT 1 FROM Categories WHERE Name='Internet & Phone');
+                INSERT INTO Categories(Name,Kind)
+                    SELECT 'Insurance','Expense' WHERE NOT EXISTS (SELECT 1 FROM Categories WHERE Name='Insurance');
+                INSERT INTO Categories(Name,Kind)
+                    SELECT 'Marketing','Expense' WHERE NOT EXISTS (SELECT 1 FROM Categories WHERE Name='Marketing');
+                INSERT INTO Categories(Name,Kind)
+                    SELECT 'Utilities','Expense' WHERE NOT EXISTS (SELECT 1 FROM Categories WHERE Name='Utilities');
+                INSERT INTO Categories(Name,Kind)
+                    SELECT 'Accounting & Legal','Expense' WHERE NOT EXISTS (SELECT 1 FROM Categories WHERE Name='Accounting & Legal');
+                INSERT INTO Categories(Name,Kind)
+                    SELECT 'Office Supplies','Expense' WHERE NOT EXISTS (SELECT 1 FROM Categories WHERE Name='Office Supplies');
+                INSERT INTO Categories(Name,Kind)
+                    SELECT 'Bank Fees','Expense' WHERE NOT EXISTS (SELECT 1 FROM Categories WHERE Name='Bank Fees');
+                INSERT INTO Categories(Name,Kind)
+                    SELECT 'Travel','Expense' WHERE NOT EXISTS (SELECT 1 FROM Categories WHERE Name='Travel');
+                INSERT INTO Categories(Name,Kind)
+                    SELECT 'Training','Expense' WHERE NOT EXISTS (SELECT 1 FROM Categories WHERE Name='Training');
+                INSERT INTO Categories(Name,Kind)
+                    SELECT 'Equipment','Expense' WHERE NOT EXISTS (SELECT 1 FROM Categories WHERE Name='Equipment');
+                INSERT INTO Categories(Name,Kind)
+                    SELECT 'Security & Compliance','Expense' WHERE NOT EXISTS (SELECT 1 FROM Categories WHERE Name='Security & Compliance');
+                INSERT INTO Categories(Name,Kind)
+                    SELECT 'Repairs & Maintenance','Expense' WHERE NOT EXISTS (SELECT 1 FROM Categories WHERE Name='Repairs & Maintenance');
+                INSERT INTO Categories(Name,Kind)
+                    SELECT 'Taxes & Licenses','Expense' WHERE NOT EXISTS (SELECT 1 FROM Categories WHERE Name='Taxes & Licenses');
+                PRAGMA user_version=4;
+                """;
             command.ExecuteNonQuery();
         }
         transaction.Commit();
@@ -68,22 +123,27 @@ public sealed class SqliteFinanceStore : IFinanceStore
     public IReadOnlyList<Transaction> LoadTransactions()
     {
         using var connection = Open(); using var command = connection.CreateCommand();
-        command.CommandText = "SELECT Id,Date,AccountId,CategoryId,Payee,Memo,Amount,Version FROM Transactions ORDER BY Date,Id";
+        command.CommandText = "SELECT Id,SyncId,Date,AccountId,CategoryId,Payee,Memo,Amount,Version FROM Transactions ORDER BY Date,Id";
         using var reader = command.ExecuteReader(); var result = new List<Transaction>();
-        while (reader.Read()) result.Add(new Transaction { Id = reader.GetInt32(0), Date = DateOnly.ParseExact(reader.GetString(1), "yyyy-MM-dd", CultureInfo.InvariantCulture), AccountId = reader.GetInt32(2), CategoryId = reader.GetInt32(3), Payee = reader.GetString(4), Memo = reader.GetString(5), Amount = decimal.Parse(reader.GetString(6), CultureInfo.InvariantCulture), Version = reader.GetInt32(7) });
+        while (reader.Read()) result.Add(new Transaction { Id = reader.GetInt32(0), SyncId = Guid.Parse(reader.GetString(1)), Date = DateOnly.ParseExact(reader.GetString(2), "yyyy-MM-dd", CultureInfo.InvariantCulture), AccountId = reader.GetInt32(3), CategoryId = reader.GetInt32(4), Payee = reader.GetString(5), Memo = reader.GetString(6), Amount = decimal.Parse(reader.GetString(7), CultureInfo.InvariantCulture), Version = reader.GetInt32(8) });
         return result;
     }
     public int SaveTransaction(Transaction item)
     {
+        if (item.SyncId == Guid.Empty) item.SyncId = Guid.NewGuid();
         using var connection = Open(); using var transaction = connection.BeginTransaction(); using var command = connection.CreateCommand();
         command.Transaction = transaction;
         command.CommandText = item.Id == 0
-            ? "INSERT INTO Transactions(Date,AccountId,CategoryId,Payee,Memo,Amount) VALUES($date,$account,$category,$payee,$memo,$amount) RETURNING Id"
+            ? "INSERT INTO Transactions(SyncId,Date,AccountId,CategoryId,Payee,Memo,Amount) VALUES($syncId,$date,$account,$category,$payee,$memo,$amount) RETURNING Id"
             : "UPDATE Transactions SET Date=$date,AccountId=$account,CategoryId=$category,Payee=$payee,Memo=$memo,Amount=$amount,Version=Version+1 WHERE Id=$id AND Version=$version RETURNING Id";
         if (item.Id != 0)
         {
             Bind(command, "$id", SqliteType.Integer, item.Id);
             Bind(command, "$version", SqliteType.Integer, item.Version);
+        }
+        else
+        {
+            Bind(command, "$syncId", SqliteType.Text, item.SyncId.ToString("D"));
         }
         Bind(command, "$date", SqliteType.Text, item.Date.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture));
         Bind(command, "$account", SqliteType.Integer, item.AccountId);

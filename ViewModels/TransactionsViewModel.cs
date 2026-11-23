@@ -1,4 +1,6 @@
 using FinanceTracker.Core.Services;
+using FinanceTracker.Application.Clients;
+using FinanceTracker.Application.Contracts;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using FinanceTracker.Core.Models;
@@ -32,6 +34,7 @@ public partial class TransactionsViewModel : ObservableObject
     {
         get
         {
+            if (remoteActivity is not null) return remoteActivity.NetActivity;
             try { return TransactionsView.Cast<Transaction>().Sum(t => t.Amount); }
             catch (OverflowException) { return null; }
         }
@@ -43,11 +46,18 @@ public partial class TransactionsViewModel : ObservableObject
     private Transaction? _newItemDraft;
 
     private readonly IFinanceStore? store;
-    public TransactionsViewModel() : this(null) { }
-    public TransactionsViewModel(IFinanceStore? store)
+    private IFinanceClient? asyncClient;
+    private ActivityResponse? remoteActivity;
+    public TransactionsViewModel() : this(null, false) { }
+    public TransactionsViewModel(IFinanceStore? store) : this(store, false) { }
+    private TransactionsViewModel(IFinanceStore? store, bool startEmpty)
     {
         this.store = store;
-        if (store is null)
+        if (startEmpty)
+        {
+            // The async client loads its accounts and transactions after construction.
+        }
+        else if (store is null)
         {
             // Seed accounts
             Accounts.Add(new Account { Id = 1, Name = "Checking", Type = "Checking", OpeningBalance = 1000m });
@@ -80,11 +90,23 @@ public partial class TransactionsViewModel : ObservableObject
         SelectedTransaction = TransactionsView.Cast<Transaction>().FirstOrDefault();
     }
 
-    partial void OnSearchTextChanged(string value) => RefreshView();
+    partial void OnSearchTextChanged(string value)
+    {
+        RefreshView();
+        if (asyncClient is not null) _ = RefreshClientDataAsync(resetPage: true);
+    }
 
-    partial void OnSelectedAccountFilterChanged(Account? value) => RefreshView();
+    partial void OnSelectedAccountFilterChanged(Account? value)
+    {
+        RefreshView();
+        if (asyncClient is not null) _ = RefreshClientDataAsync(resetPage: true);
+    }
 
-    partial void OnSelectedMonthChanged(DateTime value) => RefreshView();
+    partial void OnSelectedMonthChanged(DateTime value)
+    {
+        RefreshView();
+        if (asyncClient is not null) _ = RefreshClientDataAsync(resetPage: true);
+    }
 
     private bool FilterTransaction(object obj)
     {
@@ -117,6 +139,7 @@ public partial class TransactionsViewModel : ObservableObject
         Editor.LoadFrom(value ?? new Transaction(), isNew: false);
         ErrorMessage = "";
         NotifyCommands();
+        if (asyncClient is not null) NotifyAsyncCommands();
     }
 
     [ObservableProperty]

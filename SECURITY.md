@@ -39,3 +39,20 @@ These results apply to the current query paths. They do not claim to test every
 possible future query or provide database encryption/access control. Full UI
 interaction and arbitrary operating-system permission combinations remain outside
 the automated suite.
+
+## API and event-flow boundary
+
+The API uses EF Core LINQ for PostgreSQL queries, which sends user values as
+database parameters. Transaction search escapes `%`, `_`, and the escape character
+so they remain literal substring characters. The Compose stack publishes only
+the API on `127.0.0.1`; PostgreSQL and Kafka are private to the Compose network.
+The default API has no authentication and must not be exposed to other machines.
+
+Kafka messages contain synthetic transaction snapshots in the local demo. The
+receipt API returns event IDs and timestamps only. PostgreSQL remains the source
+of truth; the outbox provides at-least-once delivery and consumer idempotency, not
+exactly-once processing or broker high availability.
+
+The new PostgreSQL/API integration suite has been added but has not yet been run.
+Its coverage must be confirmed against a working Docker engine before treating
+these backend security and concurrency behaviors as verified.

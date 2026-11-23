@@ -1,74 +1,49 @@
-# Development and verification
+# Development
 
-Open `FinanceTracker.sln`. The Core and Data projects live inside this folder;
-the WPF project excludes their source trees and the Tests tree from its own compilation.
+Open `FinanceTracker.sln` in Visual Studio 2022 or use the .NET 10 SDK from PowerShell. The WPF app targets `net10.0-windows`; the API, application, and PostgreSQL projects target `net10.0`.
 
-The app targets .NET 8. Install its SDK and desktop runtime, or install Visual Studio
-with the .NET desktop development workload and .NET 8 targeting support.
+## Local API stack
 
-From this directory:
+Start Docker Desktop/Engine, then from the repository root run:
 
 ```powershell
-./verify.ps1
+./scripts/backend.ps1 up
 ```
 
-The verification script uses the workspace-local SDK downloaded for this repair
-when available, otherwise the installed `dotnet` command. With a system SDK installed,
-the individual commands are:
+The first run creates an ignored `.env` file with a random local PostgreSQL password, builds the API container, starts PostgreSQL and Kafka, applies migrations, and seeds synthetic demo data. The API binds to `127.0.0.1:5080`. PostgreSQL and Kafka are reachable only from the Compose network.
+
+Use `./scripts/backend.ps1 status`, `logs`, `check`, or `down` to manage the stack. `down` preserves the PostgreSQL volume. `docker compose down --volumes` removes that local demo volume.
+
+## Desktop data modes
+
+SQLite remains the default and uses `%LOCALAPPDATA%\FinanceTracker\finance.db`.
+
+To launch the app against the local API:
 
 ```powershell
-dotnet build FinanceTracker.sln
-dotnet test Tests/Unit/FinanceTracker.UnitTests.csproj
-dotnet run --project Tests/FinanceTracker.Regression.csproj
+$env:FINANCETRACKER_DATA_MODE = 'api'
+$env:FINANCETRACKER_API_BASE_URL = 'http://127.0.0.1:5080/'
 dotnet run --project FinanceTracker.Wpf.csproj
 ```
 
-The regression executable uses an STA thread for WPF collection views. It returns
-a nonzero exit code on failure and covers draft cancellation, save insertion,
-edit cancellation, deletion totals/selection, filtering, invalid drafts, and
-regional decimal input. It also instantiates and lays out the main window and checks
-that its bindings preserve a new draft. It also checks SQLite reopening, draft cancellation,
-and failed writes. The xUnit project is included in the solution for Test Explorer and tests
-editor validation and the database. These checks do not perform a
-complete visual/manual UI review.
+Clear `FINANCETRACKER_DATA_MODE` or set it to `sqlite` to return to SQLite. Changing modes never copies, uploads, or merges data.
 
-New drafts stay outside the saved collection until Save succeeds. Selecting another
-row discards unsaved editor changes. New drafts start in the selected month. Amount
-input uses the current regional decimal separator without grouping separators.
-The displayed total is filtered net activity, not an account balance.
-Amounts retain decimal precision rather than enforcing two decimal places; zero is allowed.
-An overflowing total displays a warning instead of crashing or displaying a wrapped number.
-See SECURITY.md for the SQL parameterization boundary and injection-test results.
+### Importing transactions
 
-## Verification status
+Choose **Import CSV** in the app, select a transaction CSV, review validation and duplicate warnings, then confirm the rows to add. The generated ZD Enterprises sample can be selected from `data/demo/zd-enterprises-transactions.csv`. The format and current limitations are documented in [docs/csv-import.md](docs/csv-import.md).
 
-On October 7, 2026, the solution built with zero warnings and errors. All 43
-xUnit tests and all 17 STA regression checks passed. In Visual Studio, open
-Test > Test Explorer to run the xUnit tests; `verify.ps1` runs both suites.
+SQLite/PostgreSQL database synchronization is still TODO. API mode and SQLite mode currently operate on their selected database independently; the sync/conflict design in `FINANCETRACKER_BACKEND_DESIGN.md` is planned behavior, not implemented behavior.
 
-SQLite uses `%LOCALAPPDATA%\FinanceTracker\finance.db`. The directory and schema
-are created at first launch. Starter accounts/categories are inserted once with
-zero opening balances; no sample transactions are inserted into the database.
-The parameterless view model remains an in-memory demo for regression tests.
+## Build and checks
 
-Schema creation and versioning are transactional (`PRAGMA user_version = 2`).
-Foreign keys are enabled on every connection. Dates use ISO text and monetary
-values use invariant decimal text to preserve precision. IDs are database-generated. Version-1 databases migrate without dropping their data.
-Version checks reject stale updates and UI deletions from another app instance.
-Save and Delete commit to SQLite before changing displayed rows. Failed writes
-leave the draft or row available and show an error; startup failures stop the app
-without replacing the database. Each operation opens and closes its connection.
+```powershell
+dotnet restore FinanceTracker.sln
+dotnet build FinanceTracker.sln --configuration Release
+dotnet test Tests/Unit/FinanceTracker.UnitTests.csproj
+dotnet test Tests/Api.Integration/FinanceTracker.Api.IntegrationTests.csproj
+dotnet run --project Tests/FinanceTracker.Regression.csproj
+```
 
-You can back up `finance.db` while the application is closed. Automated tests use
-unique temporary databases and do not open your real finance database.
+The API integration test project uses Testcontainers and needs Docker running. `./verify.ps1` runs the solution build, unit tests, PostgreSQL/API integration tests, and existing WPF regression checks.
 
-## Next feature milestones
-
-1. Account/category management and balances calculated from opening balances and
-   all account transactions. Keep balances separate from filtered activity.
-2. Transfers with paired account entries excluded from income/expense summaries.
-3. CSV import preview, duplicate handling, export, and database backups.
-4. Monthly summaries, then category budgets and charts.
-
-Before larger UI changes, add unsaved-change handling for selection and shutdown,
-an explicit All accounts option.
+For API requests, see `FinanceTracker.Api/requests.http`. For architecture, event delivery guarantees, and security limitations, see `docs/architecture.md`, `docs/kafka.md`, and `SECURITY.md`.

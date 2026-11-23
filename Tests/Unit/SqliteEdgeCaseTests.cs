@@ -27,7 +27,7 @@ public sealed partial class SqliteFinanceStoreTests
         Assert.Equal(target.Amount, updated.Amount);
         var untouched = rows.Single(t => t.Id == sentinel.Id);
         Assert.Equal(sentinel.Payee, untouched.Payee); Assert.Equal(sentinel.Amount, untouched.Amount);
-        Assert.Equal(2, store.LoadAccounts().Count); Assert.Equal(4, store.LoadCategories().Count);
+        Assert.Equal(3, store.LoadAccounts().Count); Assert.Equal(23, store.LoadCategories().Count);
         store.DeleteTransaction(target.Id);
         Assert.Equal(sentinel.Id, Assert.Single(store.LoadTransactions()).Id);
     }

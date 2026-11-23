@@ -15,7 +15,7 @@ public sealed partial class SqliteFinanceStoreTests : IDisposable
     public void InitializationIsIdempotentAndDoesNotSeedTransactions()
     {
         var store = CreateStore(); store.Initialize();
-        Assert.Equal(2, store.LoadAccounts().Count); Assert.Equal(4, store.LoadCategories().Count);
+        Assert.Equal(3, store.LoadAccounts().Count); Assert.Equal(23, store.LoadCategories().Count);
         Assert.Empty(store.LoadTransactions()); Assert.All(store.LoadAccounts(), a => Assert.Equal(0m, a.OpeningBalance));
     }
     [Fact]
@@ -24,7 +24,8 @@ public sealed partial class SqliteFinanceStoreTests : IDisposable
         var store = CreateStore(); var item = Item(); item.Id = store.SaveTransaction(item);
         var reopened = CreateStore(); var actual = Assert.Single(reopened.LoadTransactions());
         Assert.Equal(item.Id, actual.Id); Assert.Equal(item.Amount, actual.Amount); Assert.Equal(item.Date, actual.Date);
-        Assert.Equal(item.Payee, actual.Payee); Assert.Equal(item.Memo, actual.Memo); Assert.Equal(2, reopened.LoadAccounts().Count);
+        Assert.Equal(item.SyncId, actual.SyncId);
+        Assert.Equal(item.Payee, actual.Payee); Assert.Equal(item.Memo, actual.Memo); Assert.Equal(3, reopened.LoadAccounts().Count);
     }
     [Fact]
     public void UpdateAndDeletePersistWithoutDuplicateRows()
@@ -60,9 +61,9 @@ public sealed partial class SqliteFinanceStoreTests : IDisposable
     public void NewerSchemaIsRejectedWithoutChangingVersion()
     {
         _ = CreateStore(); using var connection = new SqliteConnection($"Data Source={DatabasePath};Pooling=False"); connection.Open();
-        using var command = connection.CreateCommand(); command.CommandText = "PRAGMA user_version=3"; command.ExecuteNonQuery();
+        using var command = connection.CreateCommand(); command.CommandText = "PRAGMA user_version=5"; command.ExecuteNonQuery();
         Assert.Throws<InvalidOperationException>(() => CreateStore()); command.CommandText = "PRAGMA user_version";
-        Assert.Equal(3L, command.ExecuteScalar());
+        Assert.Equal(4L, command.ExecuteScalar());
     }
     public void Dispose() { if (Directory.Exists(directory)) Directory.Delete(directory, true); }
 }
